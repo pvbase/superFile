@@ -1,0 +1,1382 @@
+[
+    {
+      "orgId": null,
+      "name": "Incomes",
+      "parentId": null,
+      "accountCode": "1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Expenses",
+      "parentId": null,
+      "accountCode": "2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Assets",
+      "parentId": null,
+      "accountCode": "3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Liabilities",
+      "parentId": null,
+      "accountCode": "4",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Direct Incomes",
+      "parentId": null,
+      "accountCode": "1.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Indirect Incomes",
+      "parentId": null,
+      "accountCode": "1.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Other Incomes",
+      "parentId": null,
+      "accountCode": "1.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Extraordination Item",
+      "parentId": null,
+      "accountCode": "1.4",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Direct Fees",
+      "parentId": null,
+      "accountCode": "1.1.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Sales Accounts",
+      "parentId": null,
+      "accountCode": "1.1.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Tution Fees",
+      "parentId": null,
+      "accountCode": "1.1.1.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Annual Fees",
+      "parentId": null,
+      "accountCode": "1.1.1.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Application Fees",
+      "parentId": null,
+      "accountCode": "1.1.1.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Registration Fees",
+      "parentId": null,
+      "accountCode": "1.1.1.4",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Capitation Revenue",
+      "parentId": null,
+      "accountCode": "1.1.1.5",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "RTE Fees",
+      "parentId": null,
+      "accountCode": "1.1.1.6",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Admission Fees",
+      "parentId": null,
+      "accountCode": "1.1.1.7",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Prospectus Fees",
+      "parentId": null,
+      "accountCode": "1.1.1.8",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Uniform Fees",
+      "parentId": null,
+      "accountCode": "1.1.1.9",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Invigilation fees",
+      "parentId": null,
+      "accountCode": "1.1.1.10",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Corpus Fund A/c",
+      "parentId": null,
+      "accountCode": "1.2.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Indirect Fees",
+      "parentId": null,
+      "accountCode": "1.2.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Sponsorships",
+      "parentId": null,
+      "accountCode": "1.2.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Other Fees",
+      "parentId": null,
+      "accountCode": "1.2.4",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Miscellaneous Income",
+      "parentId": null,
+      "accountCode": "1.2.5",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Investment Income",
+      "parentId": null,
+      "accountCode": "1.2.6",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Land & Building Hire income",
+      "parentId": null,
+      "accountCode": "1.2.7",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Income from holding events",
+      "parentId": null,
+      "accountCode": "1.2.8",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Endowment Fees",
+      "parentId": null,
+      "accountCode": "1.2.9",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Expertise Consultancy Fees",
+      "parentId": null,
+      "accountCode": "1.2.10",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Bank Interest",
+      "parentId": null,
+      "accountCode": "1.2.11",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Interest from Loans given",
+      "parentId": null,
+      "accountCode": "1.2.12",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Income from Royalty",
+      "parentId": null,
+      "accountCode": "1.2.13",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Profit on sale of assets",
+      "parentId": null,
+      "accountCode": "1.2.14",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Owned",
+      "parentId": null,
+      "accountCode": "1.2.15",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Additional Study Support Fees",
+      "parentId": null,
+      "accountCode": "1.2.16",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Discounts Received",
+      "parentId": null,
+      "accountCode": "1.2.17",
+      "isDefault": true,
+      "isEditable": false
+    },
+  
+    {
+      "orgId": null,
+      "name": "Grant",
+      "parentId": null,
+      "accountCode": "1.3.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Subsidies",
+      "parentId": null,
+      "accountCode": "1.3.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Fixed Deposit",
+      "parentId": null,
+      "accountCode": "1.2.11.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Current Deposit",
+      "parentId": null,
+      "accountCode": "1.2.11.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Recurring Deposit",
+      "parentId": null,
+      "accountCode": "1.2.11.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Bonds",
+      "parentId": null,
+      "accountCode": "1.2.11.4",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Acquired out of grands",
+      "parentId": null,
+      "accountCode": "1.2.15.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Received free",
+      "parentId": null,
+      "accountCode": "1.2.15.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Direct Expenses",
+      "parentId": null,
+      "accountCode": "2.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Indirect Expenses",
+      "parentId": null,
+      "accountCode": "2.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Affiliations",
+      "parentId": null,
+      "accountCode": "2.1.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Accreditions",
+      "parentId": null,
+      "accountCode": "2.1.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Certifications",
+      "parentId": null,
+      "accountCode": "2.1.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Salaries & Wages",
+      "parentId": null,
+      "accountCode": "2.1.4",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Purchase Accounts",
+      "parentId": null,
+      "accountCode": "2.1.5",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Stipend",
+      "parentId": null,
+      "accountCode": "2.2.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Office / Teacher Requisites",
+      "parentId": null,
+      "accountCode": "2.2.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Printing and Stationery",
+      "parentId": null,
+      "accountCode": "2.2.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Class Materials",
+      "parentId": null,
+      "accountCode": "2.2.4",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Postage and Couriers",
+      "parentId": null,
+      "accountCode": "2.2.5",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Repairs and Maintanance",
+      "parentId": null,
+      "accountCode": "2.2.6",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Telephone Expenses",
+      "parentId": null,
+      "accountCode": "2.2.7",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Fundraising Expenses",
+      "parentId": null,
+      "accountCode": "2.2.8",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Donations Gifts and Awards",
+      "parentId": null,
+      "accountCode": "2.2.9",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Business Promotional Expenses",
+      "parentId": null,
+      "accountCode": "2.2.10",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Event Management Expense",
+      "parentId": null,
+      "accountCode": "2.2.11",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Internet Expense",
+      "parentId": null,
+      "accountCode": "2.2.12",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Electricity  Charges",
+      "parentId": null,
+      "accountCode": "2.2.13",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Water Charges",
+      "parentId": null,
+      "accountCode": "2.2.14",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Fuel Expense",
+      "parentId": null,
+      "accountCode": "2.2.15",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Service  Maintenence",
+      "parentId": null,
+      "accountCode": "2.2.16",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Insurance Expenses",
+      "parentId": null,
+      "accountCode": "2.2.17",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Scholarships",
+      "parentId": null,
+      "accountCode": "2.2.18",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Rent Payables",
+      "parentId": null,
+      "accountCode": "2.2.19",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Medical and Medication",
+      "parentId": null,
+      "accountCode": "2.2.20",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Reimbursements",
+      "parentId": null,
+      "accountCode": "2.2.21",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "LTA Expense",
+      "parentId": null,
+      "accountCode": "2.2.22",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "House Keeping",
+      "parentId": null,
+      "accountCode": "2.2.23",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Discount Given",
+      "parentId": null,
+      "accountCode": "2.2.24",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Grautity Expenses",
+      "parentId": null,
+      "accountCode": "2.2.25",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Relocation Expense",
+      "parentId": null,
+      "accountCode": "2.2.26",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Recruitment Expense",
+      "parentId": null,
+      "accountCode": "2.2.27",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Prior Period Expenses",
+      "parentId": null,
+      "accountCode": "2.2.28",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Depreciation",
+      "parentId": null,
+      "accountCode": "2.2.29",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Instructional Support Services",
+      "parentId": null,
+      "accountCode": "2.2.30",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "College Support Services",
+      "parentId": null,
+      "accountCode": "2.2.31",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Administrative and General Expenses",
+      "parentId": null,
+      "accountCode": "2.2.32",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Subscriptions and Dues",
+      "parentId": null,
+      "accountCode": "2.2.33",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Finance Charges",
+      "parentId": null,
+      "accountCode": "2.2.34",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Bank Charges",
+      "parentId": null,
+      "accountCode": "2.2.35",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Other Expenses",
+      "parentId": null,
+      "accountCode": "2.2.36",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Campus",
+      "parentId": null,
+      "accountCode": "2.2.17.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Hostel",
+      "parentId": null,
+      "accountCode": "2.2.17.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Vehicle",
+      "parentId": null,
+      "accountCode": "2.2.17.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Staff",
+      "parentId": null,
+      "accountCode": "2.2.17.4",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Current Assets",
+      "parentId": null,
+      "accountCode": "3.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Fixed Assets",
+      "parentId": null,
+      "accountCode": "3.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Accumulated Depreciation",
+      "parentId": null,
+      "accountCode": "3.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Deposits",
+      "parentId": null,
+      "accountCode": "3.1.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Loans and Advances Receivable",
+      "parentId": null,
+      "accountCode": "3.1.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Account Receivables",
+      "parentId": null,
+      "accountCode": "3.1.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Petty cash / Cash in hand",
+      "parentId": null,
+      "accountCode": "3.1.4",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Bank Accounts",
+      "parentId": null,
+      "accountCode": "3.1.5",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Investment",
+      "parentId": null,
+      "accountCode": "3.1.6",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "GST Receivable",
+      "parentId": null,
+      "accountCode": "3.1.7",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "TDS Receivable",
+      "parentId": null,
+      "accountCode": "3.1.8",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Inventories",
+      "parentId": null,
+      "accountCode": "3.1.9",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Prepaid Expenses",
+      "parentId": null,
+      "accountCode": "3.1.10",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Contribution Receivable",
+      "parentId": null,
+      "accountCode": "3.1.11",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Funds held in trust",
+      "parentId": null,
+      "accountCode": "3.1.12",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Vendor Advances",
+      "parentId": null,
+      "accountCode": "3.1.13",
+      "isDefault": true,
+      "isEditable": false
+    },
+  
+    {
+      "orgId": null,
+      "name": "Reimbursement Advances",
+      "parentId": null,
+      "accountCode": "3.1.14",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Land",
+      "parentId": null,
+      "accountCode": "3.2.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Building",
+      "parentId": null,
+      "accountCode": "3.2.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Fixed Assets",
+      "parentId": null,
+      "accountCode": "3.2.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Library books",
+      "parentId": null,
+      "accountCode": "3.2.4",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Fittings & Furnitures",
+      "parentId": null,
+      "accountCode": "3.2.5",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Vehicles",
+      "parentId": null,
+      "accountCode": "3.2.6",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Computers",
+      "parentId": null,
+      "accountCode": "3.2.7",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Air Conditioners",
+      "parentId": null,
+      "accountCode": "3.2.8",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Equipments",
+      "parentId": null,
+      "accountCode": "3.2.9",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Construction in progress",
+      "parentId": null,
+      "accountCode": "3.2.10",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "AD - Building",
+      "parentId": null,
+      "accountCode": "3.3.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "AD - Equipments",
+      "parentId": null,
+      "accountCode": "3.3.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "AD - Library books",
+      "parentId": null,
+      "accountCode": "3.3.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "AD - Fittings & Furnitures",
+      "parentId": null,
+      "accountCode": "3.3.4",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "AD - Vehicles",
+      "parentId": null,
+      "accountCode": "3.3.5",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "AD - Computers",
+      "parentId": null,
+      "accountCode": "3.3.6",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "AD - Computer Software",
+      "parentId": null,
+      "accountCode": "3.3.7",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "AD - Office Equipments",
+      "parentId": null,
+      "accountCode": "3.3.8",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "AD - Sports Equipment",
+      "parentId": null,
+      "accountCode": "3.3.9",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "AD - Lab Equipments",
+      "parentId": null,
+      "accountCode": "3.3.10",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "AD - Television",
+      "parentId": null,
+      "accountCode": "3.3.11",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "AD - Projector",
+      "parentId": null,
+      "accountCode": "3.3.12",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "AD - Air Conditioners",
+      "parentId": null,
+      "accountCode": "3.3.13",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "CGST Input",
+      "parentId": null,
+      "accountCode": "3.1.7.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "SGST Input",
+      "parentId": null,
+      "accountCode": "3.1.7.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "IGST Input",
+      "parentId": null,
+      "accountCode": "3.1.7.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "CESS Input",
+      "parentId": null,
+      "accountCode": "3.1.7.4",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Students",
+      "parentId": null,
+      "accountCode": "3.1.3.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Customers",
+      "parentId": null,
+      "accountCode": "3.1.3.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Fixed Deposit",
+      "parentId": null,
+      "accountCode": "3.1.6.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Other Investment related deposits",
+      "parentId": null,
+      "accountCode": "3.1.6.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Electricity Deposit",
+      "parentId": null,
+      "accountCode": "3.1.1.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Gas Deposit",
+      "parentId": null,
+      "accountCode": "3.1.1.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Rent Deposit",
+      "parentId": null,
+      "accountCode": "3.1.1.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Capital Accounts",
+      "parentId": null,
+      "accountCode": "4.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Reserves & Surplus",
+      "parentId": null,
+      "accountCode": "4.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Loans Liabilities",
+      "parentId": null,
+      "accountCode": "4.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Current Liabilities",
+      "parentId": null,
+      "accountCode": "4.4",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Salary Payable",
+      "parentId": null,
+      "accountCode": "4.5",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Salary Deductions",
+      "parentId": null,
+      "accountCode": "4.6",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Provision",
+      "parentId": null,
+      "accountCode": "4.7",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Excess of Income Over Expenses",
+      "parentId": null,
+      "accountCode": "4.2.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Corpus  Fund",
+      "parentId": null,
+      "accountCode": "4.2.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Unsecured Loans",
+      "parentId": null,
+      "accountCode": "4.3.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Secured Loans",
+      "parentId": null,
+      "accountCode": "4.3.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Vendors",
+      "parentId": null,
+      "accountCode": "4.4.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "GST Payable",
+      "parentId": null,
+      "accountCode": "4.4.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "TDS Payable",
+      "parentId": null,
+      "accountCode": "4.4.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Others Payable",
+      "parentId": null,
+      "accountCode": "4.4.4",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Security Deposits from students",
+      "parentId": null,
+      "accountCode": "4.4.5",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Customer Advances",
+      "parentId": null,
+      "accountCode": "4.4.6",
+      "isDefault": true,
+      "isEditable": false
+    },
+  
+    {
+      "orgId": null,
+      "name": "Reimbursemet Payables",
+      "parentId": null,
+      "accountCode": "4.4.7",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "CGST Output",
+      "parentId": null,
+      "accountCode": "4.4.2.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "SGST Output",
+      "parentId": null,
+      "accountCode": "4.4.2.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "IGST Output",
+      "parentId": null,
+      "accountCode": "4.4.2.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "CESS Output",
+      "parentId": null,
+      "accountCode": "4.4.2.4",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Academic Staff",
+      "parentId": null,
+      "accountCode": "4.5.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Non Academic Staff",
+      "parentId": null,
+      "accountCode": "4.5.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Electricity Charges Payable",
+      "parentId": null,
+      "accountCode": "4.7.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Refundable Deposit",
+      "parentId": null,
+      "accountCode": "4.4.5.1",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Library Caution Deposit",
+      "parentId": null,
+      "accountCode": "4.4.5.2",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Hostel Caution Deposit",
+      "parentId": null,
+      "accountCode": "4.4.5.3",
+      "isDefault": true,
+      "isEditable": false
+    },
+    {
+      "orgId": null,
+      "name": "Fee Received in Advance from Students",
+      "parentId": null,
+      "accountCode": "4.4.5.4",
+      "isDefault": true,
+      "isEditable": false
+    }
+  ]
+  

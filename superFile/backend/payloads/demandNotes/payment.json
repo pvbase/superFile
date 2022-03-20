@@ -1,0 +1,28 @@
+{
+  "displayName": "RCPT/2020-21/001",
+  "transactionDate": "2020-11-12T11:05:39.707+00:00",
+  "relatedTransactions": ["DN/2020-21/001"],
+  "transactionType": "eduFees",
+  "transactionSubType": "feePayment",
+  "amount": 145000,
+  "status": "initiated",
+  "data": {
+    "displayName": "RCPT/2020-21/001",
+    "transactionType": "eduFees",
+    "transactionSubType": "feePayment",
+    "mode": "bank",
+    "modeDetails": {
+      "netBankingType": null,
+      "walletType": null,
+      "instrumentNo": "ABC12345",
+      "instrumentDate": "2020-09-17T11:05:39.707+00:00",
+      "bankName": "HDFC BANK",
+      "branchName": "Bangalore",
+      "transactionId": "plink_Fz3gurLu22kOdv",
+      "remarks": "Fees has been paid"
+    },
+    "amount": 145000
+  },
+  "paymentTransactionId": "plink_Fz3gurLu22kOdv",
+  "createdBy": "5fa29d5b3ab8c44784144eec"
+}

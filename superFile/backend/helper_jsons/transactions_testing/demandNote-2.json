@@ -1,0 +1,36 @@
+{
+  "displayName": "DN_2020-21_002",
+  "transactionType": "eduFees",
+  "transactionSubType": "demandNote",
+  "transactionDate": "2020-11-10T11:02:39.707+00:00",
+  "studentId": "5fab8b852ae048251083236b",
+  "studentRegId": "STUD_002",
+    "studentName": "Abdul Nasar",
+  "class": "BE_ENG_MEC_20-21",
+  "academicYear": "2020-21",
+  "programPlan": "PRGPLN_002",
+  "amount": 125000,
+  "dueDate": "2020-12-09T11:05:39.707+00:00",
+  "emailCommunicationRefIds": "abdul.n@gmail.com",
+  "smsCommunicationRefIds": "9987676998",
+  "status": "pending",
+  "relatedTransactions": [],
+  "data": {
+    "displayName": "DN_2020-21_002",
+    "studentId": "STUD_002",
+    "studentRegId": "1HK16ME009",
+    "class": "BE_ENG_MEC_20-21",
+    "academicYear": "2020-21",
+    "programPlan": "PRGPLN_002",
+    "issueDate": "2020-11-10T11:02:39.707+00:00",
+    "dueDate": "2020-12-09T11:05:39.707+00:00",
+    "feesBreakUp": [
+      {
+        "feeTypeId": "5fab81df4ba44f4c14570652",
+        "feeTypeCode": "FT_001",
+        "amount": 125000
+      }
+    ]
+  },
+  "createdBy": "5fa29d5b3ab8c44784144eec"
+}

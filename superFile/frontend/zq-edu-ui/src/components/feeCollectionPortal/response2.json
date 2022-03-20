@@ -1,0 +1,74 @@
+{
+    "transactionDetails": [
+      {
+        "regId": "KEN002",
+        "displayName": "RCP/2019-20/002",
+        "type": "deposit",
+        "mode": "bank-imps",
+        "leadId": null,
+        "name": "Swetha",
+        "class": "V C",
+        "paidBy": "57b40595866ffab90268321e",
+        "modeDetails":
+          {
+            "date": "2020-09-17T11:05:39.707+00:00",
+            "transactionId": "UTR7659982429",
+            "remarks": "Payment towards Annual fee from  Mr.Amit Koul student of 5th Standard, Division D",
+            "ybankPayload": {
+              "allpayload": ""
+            }
+          },
+        "accountRefId": "5f6339116121b6459c6f89f2",
+        "accountCoaCode": "3.1.2",
+        "description": "Fee payment",
+        "studentRefId": "5f6339116121b6459c6f89f2",
+        "studentCoaCode": "3.1.2",
+        "feesBreakup": [
+          {
+            "feeTypeId": "57b40595877fdab90268331e",
+            "description": "Tuition Fees",
+            "amount": 25000,
+            "dueAmount":25000,
+            "paidAmount":0,
+            "lateFeeAmount": 0,
+            "payingAmount": 0,
+            "status": "Pending"
+          },
+          {
+            "feeTypeId": "57b40595877fda110268331e",
+            "description": "Uniform Fees",
+            "amount": 3000,
+            "dueAmount":3000,
+            "paidAmount":0,
+            "lateFeeAmount": 0,
+            "payingAmount": 0,
+            "status": "Pending"
+          },
+          {
+            "feeTypeId": "57b40595877fda110268331e",
+            "description": "Library Fees",
+            "amount": 5000,
+            "dueAmount":5000,
+            "paidAmount":0,
+            "lateFeeAmount": 0,
+            "payingAmount": 0,
+            "status": "Pending"
+          }
+        ]
+      }
+    ],
+    "displayName": "ReceiveMoneyZQ-Money-Txn2",
+    "entityId": "5f7d689880505d2574aec1bd",
+    "transactionType": "receive Money",
+    "transactionSubType": "bank-imps",
+    "_id": "5f84097a7ff6071d14004005",
+    "type": "Demand Note",
+    "amount": 33000,
+    "feesManager": "57b40595446fdab90268321e",
+    "createdBy": "57b40595866fdab90268321e",
+    "updatedBy": "57b40595866fdab90268321e",
+    "status": "Demand Note Generated",
+    "createdAt": "2020-10-12T07: 44: 58.298Z",
+    "updatedAt": "2020-10-12T07: 44: 58.298Z",
+    "__v": 0
+  }

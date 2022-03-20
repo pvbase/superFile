@@ -1,0 +1,41 @@
+{
+  "displayName": "DN_2020-21_004",
+  "transactionType": "eduFees",
+  "transactionSubType": "demandNote",
+  "transactionDate": "2020-10-01T00:00:00.000+00:00",
+  "studentId": "5fab8b852ae048251083236c",
+  "studentRegId": "STUD_003",
+  "studentName": "Mohammed Yaseen R",
+  "class": "BE_ENG_CVL_20-21",
+  "academicYear": "2020-21",
+  "programPlan": "PRGPLN_003",
+  "amount": 152000,
+  "dueDate": "2020-11-01T12:05:39.707+00:00",
+  "emailCommunicationRefIds": "mohammed.yaseen@gmail.com",
+  "smsCommunicationRefIds": "9873845583",
+  "status": "pending",
+  "relatedTransactions": [],
+  "data": {
+    "displayName": "DN_2020-21_004",
+    "studentId": "5fab8b852ae048251083236a",
+    "studentRegId": "STUD_003",
+    "class": "BE_ENG_CVL_20-21",
+    "academicYear": "2020-21",
+    "programPlan": "5fab8b7f2ae048251083235e",
+    "issueDate": "2020-10-01T00:00:00.000+00:00",
+    "dueDate": "2020-11-01T12:05:39.707+00:00",
+    "feesBreakUp": [
+      {
+        "feeTypeId": "5fab81df4ba44f4c14570652",
+        "feeTypeCode": "FT_001",
+        "amount": 140000
+      },
+      {
+        "feeTypeId": "5fab81df4ba44f4c14570653",
+        "feeTypeCode": "FT_002",
+        "amount": 12000
+      }
+    ]
+  },
+  "createdBy": "5fa29d5b3ab8c44784144eec"
+}

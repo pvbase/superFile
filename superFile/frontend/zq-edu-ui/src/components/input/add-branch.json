@@ -1,0 +1,179 @@
+{
+    "GSTIN Based Details": [
+        {
+            "type":"heading",
+            "label":"Branch Contact Details",
+            "class":"form-hd"
+        },
+        {
+            "category":"input",
+            "type":"text",
+            "name":"branch",
+            "label":"Branch",
+            "class":"input-wrap branch-input",
+            "readOnly":false,
+            "required":true
+        },
+        {
+            "category":"input",
+            "type":"email",
+            "name":"email",
+            "label":"Mail id",
+            "class":"input-wrap branch-input",
+            "readOnly":false,
+            "required":true
+        },
+        {
+            "type":"select",
+            "name":"cc",
+            "class":"select-input-wrap branch-input-phone-code",
+            "label":"CC",
+            "options":[{
+                "label": "+91",
+                "value": "+91"
+            }],
+            "readOnly":false,
+            "required":true
+        },
+        {
+            "category":"input",
+            "type":"number",
+            "name":"ph1",
+            "label":"Phone Number 1",
+            "class":"input-wrap branch-input",
+            "readOnly":false,
+            "required":true
+        },
+        {
+            "type":"heading",
+            "label":"Promoter Contact Details",
+            "class":"form-hd"
+        },
+        {
+            "category":"input",
+            "type":"text",
+            "name":"promoter",
+            "label":"Promoter",
+            "class":"input-wrap branch-input",
+            "readOnly":false,
+            "required":true
+        },
+        {
+            "category":"input",
+            "type":"email",
+            "name":"email",
+            "label":"Mail id",
+            "class":"input-wrap branch-input",
+            "readOnly":false,
+            "required":true
+        },
+        {
+            "type":"select",
+            "name":"cc",
+            "class":"select-input-wrap branch-input-phone-code",
+            "label":"CC",
+            "options":[{
+                "label": "+91",
+                "value": "+91"
+            }],
+            "readOnly":false,
+            "required":true
+        },
+        {
+            "category":"input",
+            "type":"number",
+            "name":"ph1",
+            "label":"Phone Number 1",
+            "class":"input-wrap branch-input",
+            "readOnly":false,
+            "required":true
+        },
+        {
+            "category":"button",
+            "type":"submit",
+            "label":"Submit",
+            "class":"primary-btn",
+            "baseUri":"master",
+            "apiUri":"/login",
+            "method":"POST"
+        }
+    ],
+    "Address": [
+        {
+            "category":"input",
+            "type":"text",
+            "name":"Address",
+            "label":"Address",
+            "class":"input-wrap branch-input",
+            "readOnly":false,
+            "required":true
+        },
+        {
+            "category":"button",
+            "type":"back",
+            "label":"Back",
+            "class":"secondary-btn ml36"
+        },
+        {
+            "category":"button",
+            "type":"submit",
+            "label":"Submit",
+            "class":"primary-btn",
+            "baseUri":"master",
+            "apiUri":"/login",
+            "method":"POST"
+        }
+    ],
+    "Contact Details": [
+        {
+            "category":"input",
+            "type":"text",
+            "name":"Contact",
+            "label":"Contact",
+            "class":"input-wrap branch-input",
+            "readOnly":false,
+            "required":true
+        },
+        {
+            "category":"button",
+            "type":"back",
+            "label":"Back",
+            "class":"secondary-btn ml36"
+        },
+        {
+            "category":"button",
+            "type":"submit",
+            "label":"Submit",
+            "class":"primary-btn",
+            "baseUri":"master",
+            "apiUri":"/login",
+            "method":"POST"
+        }
+    ],
+    "Financial Details": [
+        {
+            "category":"input",
+            "type":"text",
+            "name":"Financial",
+            "label":"Financial",
+            "class":"input-wrap branch-input",
+            "readOnly":false,
+            "required":true
+        },
+        {
+            "category":"button",
+            "type":"back",
+            "label":"Back",
+            "class":"secondary-btn ml36"
+        },
+        {
+            "category":"button",
+            "type":"submit",
+            "label":"Submit",
+            "class":"primary-btn",
+            "baseUri":"master",
+            "apiUri":"/login",
+            "method":"POST"
+        }
+    ]
+}

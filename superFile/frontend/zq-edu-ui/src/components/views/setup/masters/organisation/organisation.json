@@ -1,0 +1,354 @@
+{
+    "GSTIN Based Details": [
+        {
+            "type": "heading",
+            "label": "Basic Information",
+            "class": "form-hd"
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "Legal Name of Business",
+            "label": "Legal Name of Business",
+            "class": "input-wrap",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false,
+            "clear": false
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "tradeName",
+            "label": "Trade Name",
+            "class": "input-wrap",
+            "readOnly": true,
+            "required": true,
+            "requiredBoolean": true,
+            "clear": false
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "companygstin",
+            "label": "GSTIN ",
+            "class": "input-wrap branch-input",
+            "readOnly": true,
+            "required": true,
+            "requiredBoolean": true,
+            "clear": false
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "centrejurisdiction",
+            "label": "Centre Jurisdiction",
+            "class": "input-wrap branch-input",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false,
+            "clear": false
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "statejurisdiction",
+            "label": "State Jurisdiction",
+            "class": "input-wrap branch-input",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false,
+            "clear": false
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "taxpayertype",
+            "label": "Taxpayer Type",
+            "class": "input-wrap branch-input",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false,
+            "clear": false
+        },
+        {
+            "type": "select",
+            "name": "UINStatus",
+            "class": "select-input-wrap setup-input-wrap",
+            "label": "GSTIN/UIN Status",
+            "readOnly": true,
+            "requiredBoolean": false,
+            "clear": false,
+            "options": [
+                {
+                    "label": "Active",
+                    "value": true
+                },
+                {
+                    "label": "Inactive",
+                    "value": false
+                }
+            ]
+        },
+        {
+            "category": "date",
+            "type": "date",
+            "name": "dateofregistration",
+            "label": "Date of Registration ",
+            "class": "select-input-wrap  setup-input-wrap",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false,
+            "clear": false
+        },
+        {
+            "type": "select",
+            "name": "fieldVisitConducted",
+            "class": "select-input-wrap setup-input-wrap",
+            "label": "Field Visit conducted?",
+            "readOnly": true,
+            "requiredBoolean": false,
+            "clear": false,
+            "options": [
+                {
+                    "label": "Yes",
+                    "value": true
+                },
+                {
+                    "label": "No",
+                    "value": false
+                }
+            ]
+        },
+        {
+            "type": "heading",
+            "label": "Address Details",
+            "class": "form-hd"
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "address1",
+            "label": "Address1",
+            "class": "input-wrap branch-input",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false,
+            "clear": false
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "address2",
+            "label": "Address2",
+            "class": "input-wrap branch-input",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false,
+            "clear": false
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "address3",
+            "label": "Address3",
+            "class": "input-wrap branch-input",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false,
+            "clear": false
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "citytown",
+            "label": "City/Town",
+            "class": "input-wrap branch-input",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false,
+            "clear": false
+        },
+        {
+            "category": "input",
+            "type": "number",
+            "name": "pincode",
+            "label": "PIN code",
+            "class": "input-wrap branch-input",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false,
+            "clear": false
+        }
+    ],
+    "Contact Details": [
+        {
+            "type": "heading",
+            "label": "Contact Details",
+            "class": "form-hd"
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "website",
+            "label": "Organisation Website",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": false,
+            "requiredBoolean": false
+        },
+        {
+            "category": "input",
+            "type": "email",
+            "name": "orgemail",
+            "label": "Email",
+            "class": "input-wrap branch-input",
+            "readOnly": true,
+            "required": true,
+            "requiredBoolean": false,
+            "clear": false
+        },
+        {
+            "category": "input",
+            "type": "number",
+            "name": "branchphonenumber1",
+            "label": "Phone Number1",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "number",
+            "name": "branchphonenumber2",
+            "label": "Phone Number2",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": false,
+            "requiredBoolean": false
+        },
+        {
+            "type": "heading",
+            "label": "Promoter Details",
+            "class": "form-hd"
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "firstname",
+            "label": "First Name",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "lastname",
+            "label": "Last Name",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "email",
+            "name": "email",
+            "label": "Email Address",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "number",
+            "name": "aadhaar",
+            "label": "Aadhar Number ",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "pan",
+            "label": "PAN ",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "number",
+            "name": "phonenumber1",
+            "label": "Phone Number1",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "number",
+            "name": "phonenumber2",
+            "label": "Phone Number2",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": false,
+            "requiredBoolean": false
+        }
+    ],
+    "Financial Details": [
+        {
+            "type": "heading",
+            "label": "Bank Details",
+            "class": "form-hd"
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "bankname",
+            "label": "Bank Name ",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "bankaccountname",
+            "label": "Bank Account Name",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "number",
+            "name": "bankaccountnumber",
+            "label": "Bank Account No.",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "bankifsc",
+            "label": "Bank IFSC",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        }
+    ]
+}

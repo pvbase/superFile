@@ -1,0 +1,287 @@
+{
+    "AXIS_BANK": {
+        "txnDateColPosition": 0,
+        "chequeOrRefColPosition": 1,
+        "descriptionPosition": 2,
+        "debitColPosition": 3,
+        "creditColPosition": 4,
+        "balanceColPosition": 5,
+        "dateFormat": "DD-MM-YYYY",
+        "dateDelimiter": "-",
+        "blankEntry": "",
+        "amountUsesCommaSeparator": false,
+        "primaryTokenizer": "/", 
+        "ascendingOrder": true
+    },
+    "JK_BANKOld": {
+        "txnDateColPosition": 1,
+        "chequeColPosition": 2,
+        "txnRefColPosition": 7,
+        "descriptionPosition": 3,
+        "debitColPosition": 4,
+        "creditColPosition": 5,
+        "balanceColPosition": 6,
+        "dateFormat": "MM/DD/YY",
+        "dateDelimiter": "/",
+        "blankEntry": "-",
+        "amountUsesCommaSeparator": true,
+        "primaryTokenizer": "/", 
+        "ascendingOrder": false
+    }, 
+    "JK_BANK": {
+        "txnDateColPosition": 3,
+        "chequeColPosition": 4,
+        "txnRefColPosition": 10,
+        "descriptionPosition": 6,
+        "debitColPosition": 7,
+        "creditColPosition": 8,
+        "balanceColPosition": 9,
+        "dateFormat": "MM/DD/YY",
+        "dateDelimiter": "/",
+        "blankEntry": "-",
+        "amountUsesCommaSeparator": true,
+        "primaryTokenizer": "/", 
+        "ascendingOrder": false
+    },
+    "CITI": {
+        "txnDateColPosition": 0,
+        "descriptionPosition": 1,
+        "debitColPosition": 2,
+        "creditColPosition": 3,
+        "balanceColPosition": 4,
+        "dateFormat": "DDMonYY",
+        "dateDelimiter": "",
+        "blankEntry": "",
+        "amountUsesCommaSeparator": false,
+        "primaryTokenizer": "\n", 
+        "ascendingOrder": true
+    },
+    "SBI": {
+        "txnDateColPosition": 0,
+        "valueDateColPosition": 1,
+        "chequeOrRefColPosition": 3,
+        "descriptionPosition": 2,
+        "debitColPosition": 4,
+        "creditColPosition": 5,
+        "balanceColPosition": 6,
+        "dateFormat": "DD Mon YYYY",
+        "dateDelimiter": " ",
+        "blankEntry": "",
+        "amountUsesCommaSeparator": true,
+        "primaryTokenizer": "/", 
+        "ascendingOrder": true
+    },
+    "BOB": {
+        "txnDateColPosition": 1,
+        "valueDateColPosition": 7,
+        "chequeOrRefColPosition": 3,
+        "descriptionPosition": 2,
+        "debitColPosition": 4,
+        "creditColPosition": 5,
+        "balanceColPosition": 6,
+        "dateFormat": "DD/MM/YY",
+        "dateDelimiter": "/",
+        "blankEntry": "-",
+        "amountUsesCommaSeparator": true,
+        "primaryTokenizer": "-",
+        "ascendingOrder": true, 
+        "descriptionBreakup": {
+            "credit": {
+                "startsWith": {
+                    "NEFT": {
+                        "tokenizer": "-",
+                        "noOfTokens": 3,
+                        "tokens": [
+                            "mode",
+                            "bankTxnId",
+                            "depositor"
+                        ]
+                    }
+                }
+            },
+            "debit": {
+                "startsWith": {
+                    "NEFT": {
+                        "tokenizer": "-",
+                        "noOfTokens": 3,
+                        "tokens": [
+                            "mode",
+                            "bankTxnId",
+                            "creditor"
+                        ]
+                    },
+                    "RTGS": {
+                        "tokenizer": "-",
+                        "noOfTokens": 3,
+                        "tokens": [
+                            "mode",
+                            "bankTxnId",
+                            "creditor"
+                        ]
+                    },
+                    "UPI": {
+                        "tokenizer": "/",
+                        "noOfTokens": 5,
+                        "tokens": [
+                            "mode",
+                            "refNo",
+                            "timestamp",
+                            "upi",
+                            "beneficiary"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "INDIAN_BANK": {
+        "valueDateColPosition": 0,
+        "txnDateColPosition": 1,
+        "chequeOrRefColPosition": 4,
+        "descriptionPosition": 3,
+        "debitColPosition": 5,
+        "creditColPosition": 6,
+        "balanceColPosition": 7,
+        "dateFormat": "DD/MM/ YYYY",
+        "dateDelimiter": "/",
+        "blankEntry": "",
+        "amountUsesCommaSeparator": false,
+        "primaryTokenizer": "/", 
+        "ascendingOrder": true
+    },
+    "CANARA": {
+        "valueDateColPosition": 0,
+        "txnDateColPosition": 1,
+        "chequeOrRefColPosition": 4,
+        "descriptionPosition": 3,
+        "debitColPosition": 5,
+        "creditColPosition": 6,
+        "balanceColPosition": 7,
+        "dateFormat": "DD/MM/YYYY",
+        "dateDelimiter": "",
+        "blankEntry": "",
+        "amountUsesCommaSeparator": true,
+        "primaryTokenizer": "", 
+        "ascendingOrder": true
+    },
+    "DBS": {
+        "txnDateColPosition": 0,
+        "descriptionPosition": 1,
+        "debitColPosition": 2,
+        "creditColPosition": 3,
+        "balanceColPosition": 4,
+        "dateFormat": "DD-Mon-YYYY",
+        "dateDelimiter": "-",
+        "blankEntry": "",
+        "amountUsesCommaSeparator": true,
+        "primaryTokenizer": "\n", 
+        "ascendingOrder": true
+    },
+    "ICICI": {
+        "txnDateColPosition": 0,
+        "descriptionPosition": 2,
+        "debitColPosition": 4,
+        "creditColPosition": 3,
+        "balanceColPosition": 5,
+        "dateFormat": "DD-MM-YYYY",
+        "dateDelimiter": "-",
+        "blankEntry": "",
+        "amountUsesCommaSeparator": true,
+        "primaryTokenizer": "/", 
+        "ascendingOrder": true
+    },
+    "HDFC": {
+        "txnDateColPosition": 0,
+        "valueDateColPosition": 3,
+        "chequeOrRefColPosition": 2,
+        "descriptionPosition": 1,
+        "debitColPosition": 4,
+        "creditColPosition": 5,
+        "balanceColPosition": 6,
+        "chequeColPosition":2,
+        "txnRefColPosition":2,
+        "dateFormat": "DD/MM/YY",
+        "dateDelimiter": "/",
+        "blankEntry": "",
+        "amountUsesCommaSeparator": true,
+        "primaryTokenizer": "-", 
+        "ascendingOrder": true
+    },
+    "YESBANK": {
+        "txnDateColPosition": 0,
+        "valueDateColPosition": 1,
+        "chequeOrRefColPosition": 3,
+        "descriptionPosition": 2,
+        "debitColPosition": 4,
+        "creditColPosition": 5,
+        "balanceColPosition": 6,
+        "dateFormat": "DD/MM/YYYY",
+        "dateDelimiter": "/",
+        "blankEntry": "",
+        "amountUsesCommaSeparator": true,
+        "primaryTokenizer": "-",
+        "ascendingOrder": true, 
+        "descriptionFormat": {
+            "credit": {
+                "startsWith": [
+                    "NEFT Cr",
+                    "IMPS"
+                ],
+                "NEFT": {
+                    "tokenizer": "-",
+                    "noOfTokens": 5,
+                    "tokens": [
+                        "mode",
+                        "fromBank",
+                        "depositor",
+                        "beneficiary",
+                        "bankTxnId"
+                    ]
+                },
+                "IMPS": {
+                    "tokenizer": "/",
+                    "noOfTokens": 6,
+                    "tokens": [
+                        "mode",
+                        "remark",
+                        "depositor",
+                        "remark2",
+                        "rrn",
+                        "fromBank"
+                    ]
+                }
+            },
+            "debit": {
+                "startsWith": [
+                    "NEFT"
+                ],
+                "NEFT": {
+                    "tokenizer": "-",
+                    "noOfTokens": 4,
+                    "tokens": [
+                        "mode",
+                        "bankTxnId",
+                        "refNo",
+                        "beneficiary"
+                    ]
+                }
+            }
+        }
+    },
+    "Razorpay":{
+        "txnDateColPosition": 25,
+        "chequeColPosition": 2,
+        "txnRefColPosition": 7,
+        "descriptionPosition": 3,
+        "debitColPosition": 8,
+        "creditColPosition": 1,
+        "balanceColPosition": 6,
+        "dateFormat": "MM/DD/YY",
+        "dateDelimiter": "/",
+        "blankEntry": "-",
+        "amountUsesCommaSeparator": true,
+        "primaryTokenizer": "/", 
+        "ascendingOrder": false
+    }
+
+}

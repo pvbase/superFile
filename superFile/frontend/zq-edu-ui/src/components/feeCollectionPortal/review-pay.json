@@ -1,0 +1,33 @@
+[
+    {
+        "category": "input",
+        "type": "text",
+        "name": "invoice",
+        "label": "Amount Due",
+        "class": "input-wrap login-input",
+        "readOnly": true,
+        "required": false,
+        "requiredBoolean": false
+    },
+    {
+        "category": "input",
+        "type": "text",
+        "name": "dueAmount",
+        "label": "Amount Being Paid",
+        "class": "input-wrap balance-input",
+        "readOnly": false,
+        "required": false,
+        "requiredBoolean":true
+    },
+    {
+        "category":"button",
+        "type":"submit",
+        "label":"Confirm",
+        "class":"primary-btn login-btn submit-payment-btn",
+        "apiDetails":[{
+            "baseUri":"zqBaseUri",
+            "apiUri":"auth/otplogin",
+            "method":"POST"
+        }]
+    }
+]

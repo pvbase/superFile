@@ -1,0 +1,55 @@
+[
+    {
+        "category": "input",
+        "type": "text",
+        "name": "bankName",
+        "label": "Your Bank Name",
+        "class": "input-wrap bank-name",
+        "readOnly": false,
+        "required": false,
+        "defaultValue": ""
+    },
+    {
+        "category": "input",
+        "type": "text",
+        "name": "accountName",
+        "label": "Name on Account",
+        "class": "input-wrap account-name",
+        "readOnly": false,
+        "required": false,
+        "defaultValue": ""
+    },
+    {
+        "category": "input",
+        "type": "text",
+        "name": "accountNumber",
+        "label": "Account Number",
+        "class": "input-wrap account-num",
+        "readOnly": false,
+        "required": false,
+        "defaultValue": ""
+    },
+    {
+        "category": "input",
+        "type": "text",
+        "name": "ifscCode",
+        "label": "IFSC Code",
+        "class": "input-wrap ifsc-code",
+        "readOnly": false,
+        "required": false,
+        "defaultValue": ""
+    },
+    {
+        "category": "button",
+        "type": "submit",
+        "label": "Confirm",
+        "class": "primary-btn add-bank-btn",
+        "apiDetails": [
+            {
+                "baseUri": "otpUri",
+                "apiUri": "otplogin",
+                "method": "POST"
+            }
+        ]
+    }
+]

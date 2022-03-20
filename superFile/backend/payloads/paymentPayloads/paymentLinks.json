@@ -1,0 +1,5 @@
+{
+  "razorpay": {
+    "create": "https://api.razorpay.com/v1/payment_links"
+  }
+}

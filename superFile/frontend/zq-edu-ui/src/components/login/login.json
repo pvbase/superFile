@@ -1,0 +1,30 @@
+[
+    {
+        "category":"input",
+        "type":"emailph",
+        "name":"email",
+        "label":"Email or Mobile No.",
+        "class":"input-wrap login-input",
+        "readOnly":false,
+        "required":true,
+        "requiredBoolean":true
+    },
+    {
+        "category":"recaptcha",
+        "class":"recaptcha-wrap",
+        "readOnly":false,
+        "required":true,
+        "requiredBoolean":true
+    },
+    {
+        "category":"button",
+        "type":"submit",
+        "label":"Login",
+        "class":"primary-btn login-btn",
+        "apiDetails":[{
+            "baseUri":"zqBaseUri",
+            "apiUri":"zqedu/otplogin",
+            "method":"POST"
+        }]
+    }
+]

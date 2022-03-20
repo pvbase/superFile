@@ -1,0 +1,10 @@
+{
+    "accessKeyId": "AKIAR6HU7QOXIVHWCXAL",
+    "secretAccessKey": "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",
+    "apiVersion": "2012-08-10",
+    "S3_BUCKET": "tally-migrator",
+    "baseUrl" : "http://idosast.southeastasia.cloudapp.azure.com:5001",
+    "domainName" : "apiqa.zenqore.com",
+    "basePath" : "master",
+    "resourceUrl": "http://3.87.49.91:8080/container"
+}

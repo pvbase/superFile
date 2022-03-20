@@ -1,0 +1,59 @@
+[
+    {
+        "type": "select",
+        "name": "paymentGateway",
+        "class": "select-input-wrap setup-input-wrap settings-address-input  ",
+        "label": "Select Payment Gateway",
+        "options": [
+            {
+                "value": "razorpay",
+                "label": "RazorPay"
+            },
+            {
+                "value": "paypal",
+                "label": "PayPal"
+            },
+            {
+                "value": "stripe",
+                "label": "Stripe"
+            },
+            {
+                "value": "eway",
+                "label": "EWay"
+            },
+            {
+                "value": "weway",
+                "label": "WePay"
+            },
+            {
+                "value": "2checkout",
+                "label": "2Checkout"
+            }
+        ],
+        "placement": "bottom",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean": false
+    },
+    {
+        "category": "input",
+        "type": "text",
+        "name": "accessKey",
+        "label": "Username/Access Key",
+        "class": "input-wrap settings-address-input",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean": false,
+        "clear": false
+    },
+    {
+        "category": "input",
+        "type": "password",
+        "name": "secretKey",
+        "label": "Password/Secret Key",
+        "class": "input-wrap settings-address-input",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean": false
+    }
+]

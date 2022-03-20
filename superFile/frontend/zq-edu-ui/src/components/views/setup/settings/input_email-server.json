@@ -1,0 +1,40 @@
+[
+    {
+        "type": "select",
+        "name": "emailServer",
+        "class": "select-input-wrap setup-input-wrap settings-address-input  ",
+        "label": "Select Email Server",
+        "options": [
+            {
+                "value": "gmail",
+                "label": "Gmail"
+            },
+            {
+                "value": "yahoo",
+                "label": "Yahoo"
+            },
+            {
+                "value": "outlook",
+                "label": "Outlook"
+            },
+            {
+                "value": "zoho",
+                "label": "Zoho"
+            }
+        ],
+        "placement": "bottom",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean": false
+    },
+    {
+        "category": "input",
+        "type": "emailph",
+        "name": "senderEmail",
+        "label": "Sender Email Address",
+        "class": "input-wrap settings-address-input",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean": false
+    }
+]

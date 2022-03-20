@@ -1,0 +1,43 @@
+[
+    {
+        "category": "input",
+        "type": "email",
+        "name": "email",
+        "label": "Email",
+        "class": "input-wrap login-input",
+        "readOnly": true,
+        "requiredBoolean":true
+    },
+    {
+        "category": "input",
+        "type": "password",
+        "name": "password",
+        "label": "New Password",
+        "class": "input-wrap password-icon-wrap login-input",
+        "readOnly": false,
+        "required": true,
+        "password": true,
+        "requiredBoolean":true
+    },
+    {
+        "category": "button",
+        "type": "submit",
+        "label": "Submit",
+        "class": "primary-btn login-btn",
+        "apiDetails":[{
+            "baseUri":"zqBaseUri",
+            "apiUri":"zqedu/otpregister",
+            "method":"POST"
+        },
+        {
+            "baseUri":"zqBaseUri",
+            "apiUri":"zqedu/register",
+            "method":"POST"   
+        }, {
+            "baseUri":"zqBaseUri",
+            "apiUri":"zqedu/login",
+            "method":"POST"   
+        }
+    ]
+    }
+]

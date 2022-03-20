@@ -1,0 +1,10 @@
+[
+  {
+    "type": "cheque",
+    "subTypes": []
+  },
+  {
+    "type": "card",
+    "subTypes": ["creditCard", "debitCard"]
+  }
+]

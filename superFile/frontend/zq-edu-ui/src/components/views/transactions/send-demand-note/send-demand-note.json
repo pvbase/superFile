@@ -1,0 +1,58 @@
+{
+    "studentsFormjson": {
+        "General": [
+            {
+                "category": "input",
+                "type": "text",
+                "name": "feesStructure",
+                "label": "Fees Structure",
+                "class": "input-wrap",
+                "readOnly": true,
+                "required": false,
+                "requiredBoolean": false,
+                "clear": false,
+                "validation": false
+            },
+            {
+                "category": "input",
+                "type": "text",
+                "name": "name",
+                "label": "Name",
+                "class": "input-wrap",
+                "readOnly": true,
+                "required": false,
+                "requiredBoolean": false,
+                "clear": false,
+                "validation": false
+            },
+            {
+                "category": "input",
+                "type": "text",
+                "name": "batchClass",
+                "label": "Batch/Class",
+                "class": "input-wrap",
+                "readOnly": true,
+                "required": false,
+                "requiredBoolean": false,
+                "clear": false,
+                "validation": false
+            }
+        ],
+        "Fees Types":[ ]
+    },
+    "sampleStudentsData": [],
+    "containerNav": {
+        "isBack": false,
+        "name": "Send Demand Note",
+        "isName": true,
+        "isSearch": true,
+        "isSort": true,
+        "isPrint": true,
+        "isDownload": false,
+        "isShare": false,
+        "isNew": false,
+        "newName": "New",
+        "isSubmit": false
+    },
+    "sampleApiRes":{}
+}

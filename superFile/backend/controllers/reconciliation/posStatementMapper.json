@@ -1,0 +1,11 @@
+{
+    "JK_POS": {
+        "txnDateColPosition": 2,
+        "cardNumColPosition": 0,
+        "authCodeColPosition": 1,
+        "txnAmountColPosition": 3,
+        "dateFormat": "DD-Mon-YYYY",
+        "dateDelimiter": "-",
+        "amountUsesCommaSeparator": false
+    } 
+}

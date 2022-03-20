@@ -1,0 +1,208 @@
+@import "./common.scss";
+.student-data-portal-main{
+    width: 100%;
+    .student-data-portal-login-content{
+       position: relative;
+       margin: 10vh auto;
+       width: 75%;
+    }
+    .student-portal-login-btn{
+        width: 44vh; 
+        font-family: OpenSans-Medium;
+        cursor: pointer;
+        border-radius: 3px;
+        background-color: #15435b;
+        padding: 10px 39px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #ffffff;
+        border: 1px solid #15435b;
+    }
+    .student-portal-login-btn:hover{
+        color: #ffffff;
+        background-color: #15435b;
+    }
+    .student-portal-separator-line{
+        position: relative;
+        top: 35vh;
+        border: $input-border-color;
+        width: 325px;
+    }
+}
+
+.student-data-center-main{
+    width: 100%;
+    background-color: #f6f8fa;
+    height: 83vh;
+    .student-data-center-headers{
+        display: flex;
+        // width: 235px;
+        float: right;
+        margin-right: 20px;
+        justify-content: space-between;
+        .upload-json-btn , .logout-btn{
+            text-transform: capitalize;
+            width: 110px;
+            font-family: OpenSans-Medium;
+            cursor: pointer;
+            border-radius: 3px;
+            background-color: #15435b;
+            padding: 7px 15px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #ffffff;
+            border: 1px solid #15435b;
+            float: right;
+            margin-right: 34px;
+        }
+    }
+    .data-center-table{
+        padding: 20px;
+        background-color: #ffffff;
+        width: 97%;
+        margin: 0 auto;
+        position: relative;
+        top: 65px;
+        box-shadow: inset 0px -1px 0px #f4f5f7;
+        border: 1px solid #f4f5f7;
+    }
+    .zq-table-heading th:nth-child(7){
+            display: none !important;
+    }
+    .zq-table-body td:nth-child(7){
+        display: none !important;
+    }
+}
+
+// Preview and Review Table
+.preview-table{
+        position: fixed;
+        top: 11vh;
+        margin: 0px 20px;
+        background-color: #ffffff;
+        padding: 10px;
+        width: 97%;
+        height: auto;
+        overflow-y: auto;
+        box-shadow: inset 0px -1px 0px #f4f5f7;
+        border: 1px solid #f4f5f7;
+    .table-name{
+        font-size: 14px;
+        font-style: normal;
+        text-align: start;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        line-height: 30px;
+        min-height: 12px;
+        padding-left: 15px;
+    }
+    .preview-table-main{
+        width: 100%;
+        .thead-preview{
+            width: 100%;
+        }
+        .tbody-preview{
+            width: 100%;
+        }
+    }
+    .close-preview{
+        position: relative;
+        top: -8.5vh;
+        float: right;
+        z-index: 3;
+    }
+   
+}
+table.MuiTable-root.table-confirm-upload {
+    width: 100%;
+}
+.preview-table-mainCell{
+    background-color: #f0f0f0;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 7px 16px !important;
+    width: 50% !important
+}
+.preview-table-bodyCell{
+    padding: 8px 15px !important;
+    font-size: 12px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.preview-table-headCellDate {
+    padding: 8px 15px !important;
+    font-size: 12px !important;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left !important;
+    width: 55px !important
+}
+.preview-table-headCellAmt{
+    padding: 8px 15px !important;
+    font-size: 12px !important;
+    font-family: 'Open Sans', sans-serif;
+    text-align: right !important;
+    width: 55px !important
+}
+.preview-table-bodyRow{
+    padding: 10px 20px !important;
+}
+.preview-table-headCell{
+    font-family: OpenSans-Regular;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    line-height: 16px !important;
+    color: #7a869a !important; 
+    text-transform: uppercase;
+    border-bottom: 1px solid #dfe1e6;
+    padding: 0px 15px !important;
+    padding-bottom: 10px !important
+}
+.preview-table-bodyCell:nth-child(1){
+    width: auto !important;
+    min-width: 161px !important;
+    max-width: auto !important;
+}
+.preview-table-container{
+    position: relative;
+    top: -30px;
+    max-height: 58vh;
+}
+.preview-table-container::-webkit-scrollbar {
+    width: 3px !important;
+    height: 3px !important;
+}
+.preview-table-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.preview-table-container::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 50px;
+    width: 3px !important;
+    height: 3px !important;
+}
+.preview-table-container::-webkit-scrollbar-thumb:hover {
+    background: #777;
+    border-radius: 50px;
+    height: 3px !important;
+    width: 3px !important;
+}
+.confirm-upload-btn{
+    text-transform: capitalize;
+    font-family: OpenSans-Medium;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #15435b !important;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff !important;
+    border: 1px solid #15435b;
+    float: right;
+    position: relative;
+    right: 28px;
+}
+.migration-main-div .migration-body-content-section{
+    background-color: transparent !important;
+}

@@ -1,0 +1,65 @@
+[
+    {
+        "category": "input",
+        "type": "text",
+        "name": "ID",
+        "label": "Id",
+        "class": "input-wrap",
+        "readOnly": false,
+        "required": false,
+        "requiredBoolean": false
+    },
+    {
+        "category": "input",
+        "type": "text",
+        "name": "name",
+        "label": "Name",
+        "class": "input-wrap ",
+        "readOnly": false,
+        "required": false,
+        "requiredBoolean": false
+    },
+    {
+        "category": "input",
+        "type": "text",
+        "name": "Description",
+        "label": "Description",
+        "class": "input-wrap ",
+        "readOnly": false,
+        "required": false,
+        "requiredBoolean": false
+    },
+    {
+        "type": "checkbox",
+        "name": "Description",
+        "label": "Tution Fees",
+        "class": "input-wrap",
+        "readOnly": false,
+        "required": false,
+        "requiredBoolean": false
+    },
+    {
+        "category": "button",
+        "type": "save",
+        "label": "Save",
+        "class": "secondary-btn form-save-btn goods-save-btn"
+    },
+    {
+        "category": "button",
+        "type": "submit",
+        "label": "Submit",
+        "class": "primary-btn form-submit-btn goods-sbt-btn",
+        "apiDetails": [
+            {
+                "baseUri": "zqBaseUri",
+                "apiUri": "master/add/Goods",
+                "method": "POST"
+            },
+            {
+                "baseUri": "zqBaseUri",
+                "apiUri": "master/update/Goods",
+                "method": "PUT"
+            }
+        ]
+    }
+]

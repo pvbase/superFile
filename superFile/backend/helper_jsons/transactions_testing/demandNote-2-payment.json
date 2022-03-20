@@ -1,0 +1,30 @@
+{
+  "displayName": "RCPT_2020-21_002",
+  "transactionDate": "2020-11-11T11:05:39.707+00:00",
+  "relatedTransactions": [
+    "DN_2020-21_002"
+  ],
+  "transactionType": "eduFees",
+  "transactionSubType": "feePayment",
+  "amount": 125000,
+  "status": "initiated",
+  "data": {
+    "displayName": "RCPT_2020-21_002",
+    "transactionType": "eduFees",
+    "transactionSubType": "feePayment",
+    "mode": "bank",
+    "modeDetails": {
+      "netBankingType": null,
+      "walletType": null,
+      "instrumentNo": "RCPT656622",
+      "instrumentDate": "2020-11-11T11:05:39.707+00:00",
+      "bankName": "Canara Bank",
+      "branchName": "Bangalore",
+      "transactionId": "canatrss8gurLu22kOdv",
+      "remarks": "Abdul Nasar Fees for DN_2020-21_002"
+    },
+    "amount": 125000
+  },
+  "paymentTransactionId": "canatrss8gurLu22kOdv",
+  "createdBy": "5fa29d5b3ab8c44784144eec"
+}

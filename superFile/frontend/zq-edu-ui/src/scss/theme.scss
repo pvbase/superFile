@@ -1,0 +1,126 @@
+// Variable overrides
+// New color
+// $primary-color: #1359c1;
+$primary-color:#0052CC;
+$secondary-color:#00A3BF;
+$tertiary-color:#00445D;
+$new-color: $primary-color;
+// $body-bg-color: #eef1f2;
+$body-bg-color: #eef1f2;
+$sidenav-bg-color: #00445d;
+$sidenav-mainmenu-text-color: #fff;
+$sidenav-submenu-text-color: #fff;
+$sidenav-submenu-bg-color: $sidenav-bg-color;
+$sidenav-submenu-border-color: #b3bac5;
+$sidenav-menu-arrow-color: #dfe1e6;
+$sidenav-submenu-arrow-color: #dfe1e6;
+$sidenav-menu-hover-bg-color: #00445D;
+$sidenav-menu-hover-text-color: #fff;
+$sidenav-menu-hover-icon-color: #eef1f2;
+$header-bg: #FFFFFF;
+// $app-body-color: $app-body-color;
+// $app-body-color:#E5E5E5;
+// $app-body-color:#eef1f2;
+$app-body-color:#F6F8FA;
+$login-body-color: #ffffff;
+$burger-menu-icon-color: #7A869A;
+$dashboard-header-bg-color:#E5E5E5;
+
+
+// Array of colors from _variables.scss
+$theme-colors: (
+  primary: $new-color
+) !default;
+
+//import fonts
+@font-face {
+  font-family: OpenSans-ExtraBold;
+  src: url(../assets/fonts/open_sans/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../assets/fonts/open_sans/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: OpenSans-Light;
+  src: url(../assets/fonts/open_sans/OpenSans-Light.ttf);
+}
+@font-face {
+  font-family: OpenSans-Medium;
+  src: url(../assets/fonts/open_sans/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(../assets/fonts/open_sans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSans-LightItalic;
+  src: url(../assets/fonts/open_sans/OpenSans-LightItalic.ttf);
+}
+@font-face {
+  font-family: OpenSans-Italic;
+  src: url(../assets/fonts/open_sans/OpenSans-Italic.ttf);
+}
+$primary-font-ExtraBold: OpenSans-ExtraBold;
+$primary-font-Bold: OpenSans-Bold;
+$primary-font-Light: OpenSans-Light;
+$primary-font-Medium: OpenSans-Medium;
+$primary-font-Regular: OpenSans-Regular;
+$primary-font-LightItalic: OpenSans-LightItalic;
+$primary-font-Italic: OpenSans-Italic;
+
+//Font Size
+$fs-normal: 14px;
+$fs-vss: 0px;
+$fs-xs: 8px;
+$fs-xss: 9px;
+$fs-xs-s: 10px;
+$fs-xx-s: 11px;
+$fs-xx-s-small: 11.36px;
+$fs-s: 12px;
+$fs-s-small: 12.5px;
+$fs-ss: 13px;
+$fs-sl:14px;
+$fs-m-s: 15px;
+$fs-m: 16px;
+$fs-l: 18px;
+$fs-xl: 20px;
+$fs-xxl: 22px;
+$fs-xxxl:24px;
+$fs-xxxxl: 30px;
+
+
+$radius-2: 2px;
+$radius-3: 3px;
+$radius-4: 4px;
+
+
+$sidenav-mainmenu-font-size: $fs-normal;
+$sidenav-width: 196px;
+
+
+$input-border-color:  1px solid #DFE1E6;
+
+$border-color:  #DFE1E6;
+$light-txt-color:#7A869A;
+$bold-text-color:#061938;
+
+//cards border color
+$green-card-border-color: #36b37e;
+$yellow-card-border-color:#ffe380;
+$red-card-border-color:#ff5630;
+$white: #ffffff;
+$black:#000000;
+$dark-yellow:#FF991F;
+$error-color: #FF5630;
+$success-color: #00875A;
+$blue-btn-color:#0052CC;
+$header-bgcolor :#E5E5E5;
+$all-table-icons:#7A869A;
+$login-footer-dark:#15435B;
+
+
+$content-bgcolor:#b3f5ff;
+$light-grey-text: #42526e;
+$input-bg-color:#f4f5f7;
+$black-card-border-color:#b3bac5;

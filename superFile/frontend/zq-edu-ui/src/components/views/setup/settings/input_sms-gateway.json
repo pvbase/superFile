@@ -1,0 +1,72 @@
+[
+    {
+        "type": "select",
+        "name": "smsGateway",
+        "class": "select-input-wrap setup-input-wrap settings-address-input  ",
+        "label": "Select SMS Gateway",
+        "options": [
+            {
+                "value": "Twilio",
+                "label": "Twilio"
+            },
+            {
+                "value": "Exotel",
+                "label": "Exotel"
+            },
+            {
+                "value": "Plivo",
+                "label": "Plivo"
+            },
+            {
+                "value": "2Factor",
+                "label": "2Factor"
+            },
+            {
+                "value": "Gupshup",
+                "label": "Gupshup"
+            },
+            {
+                "value": "Smart SMS Gateway",
+                "label": "Smart SMS Gateway"
+            },
+            {
+                "value": "Hubtel",
+                "label": "Hubtel"
+            },
+            {
+                "value": "Mobivate",
+                "label": "Mobivate"
+            },
+            {
+                "value": "Infobip",
+                "label": "Infobip"
+            },
+            {
+                "value": "Twilio Copilot",
+                "label": "Twilio Copilot"
+            },
+            {
+                "value": "App SMS",
+                "label": "App SMS"
+            },
+            {
+                "value": "Clickatell",
+                "label": "Clickatell"
+            }
+        ],
+        "placement": "bottom",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean": false
+    },
+    {
+        "category": "input",
+        "type": "number",
+        "name": "phoneNumber",
+        "label": "Phone Number",
+        "class": "input-wrap settings-address-input",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean": false
+    }
+]

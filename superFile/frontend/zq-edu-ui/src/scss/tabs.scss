@@ -1,0 +1,41 @@
+@import "./theme.scss";
+.tab-wrapper {
+    .MuiTab-textColorPrimary {
+        font-size: 14px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.69);
+    }
+    .MuiTab-textColorPrimary.Mui-selected {
+        color: $primary-color !important;
+    }
+    .MuiTabs-indicator {
+        background-color: $primary-color !important;
+    }
+    .MuiPaper-root {
+        border-radius: 5px;
+        box-shadow: none !important;
+        float: left;
+        width: 100%;
+        background-color: transparent !important;
+    }
+    // .MuiTabs-root {
+    //     button:first-child {
+    //         padding-left: 36px;
+    //     }
+    // }
+    // .MuiTab-root {
+    //     padding: 25px 18px 10px;
+    // }
+    .MuiBox-root {
+        float: left;
+        width: 100%;
+        height: calc(100vh - 215px);
+        // overflow: scroll;
+        // overflow-x: hidden;
+    }
+}
+.tab-wrapper {
+    position: relative;
+    width: calc(100% - 64px);
+    margin: 5px auto;
+}

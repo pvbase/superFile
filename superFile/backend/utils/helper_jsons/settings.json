@@ -1,0 +1,26 @@
+{
+    "emailService": {
+        "provider": "gmail",
+        "sender": "rahul.jain@zenqore.com"
+    },
+    "smsService": {
+        "provider": "textlocal",
+        "sender": "9922334455"
+    },
+    "paymentService": {
+        "provider": "razorpay"
+    },
+    "transactionPatterns":[
+        {
+            "transactionType": "eduFees",
+            "transactionSubType": "PYMT",
+            "transactionPattern": {
+              "txnCode": "TXN",
+              "txnCodePeriodSeparator": "/",
+              "period": "YYYY-YY",
+              "periodDigitSeparator": "/",
+              "noOfDigits": 3
+            }
+        }
+    ]
+}

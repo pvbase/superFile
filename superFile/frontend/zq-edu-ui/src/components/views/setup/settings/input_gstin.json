@@ -1,0 +1,13 @@
+[
+    {
+        "category": "input",
+        "type": "text",
+        "name": "gstin",
+        "label": "GSTIN",
+        "class": "input-wrap settings-address-input",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean": false,
+        "clear": false
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "category":"input",
+        "type":"text",
+        "name":"Shareholdername",
+        "label":"Shareholder Name",
+        "class":"input-wrap shareholder-input",
+        "readOnly":false,
+        "required":true 
+    },
+    {
+        "category":"input",
+        "type":"text",
+        "name":"Sharesheld",
+        "label":"Shares Held",
+        "class":"input-wrap shareholder-input",
+        "readOnly":false,
+        "required":true
+    },
+    {
+        "category":"input",
+        "type":"text",
+        "name":"heldpercentage",
+        "label":"Held Percentage",
+        "class":"input-wrap shareholder-input",
+        "readOnly":false,
+        "required":true
+    }
+]

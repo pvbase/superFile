@@ -1,0 +1,109 @@
+.dashboardHeader{
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.dashboardName{
+
+}
+.dashButtons{
+    display: flex;
+    width: 20%;
+    height: 21px;
+}
+.dashBtns1{
+    width: 30%;
+    text-align: center;
+    border-right: 1px solid black;
+    cursor: pointer;
+    height: 24px;
+    font-size: 18px;
+}
+
+.dashBtns1:hover,.dashBtns2:hover{
+    font-weight: 600;
+    text-decoration: underline;
+}
+.dashBtns2{
+    font-size: 18px;
+        width: 21%;
+        text-align: center;
+        cursor: pointer;
+    
+
+}
+.dashboardContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    height: 185px;
+    background: #ffffff;
+    width: 32%;
+}
+.dashboardChartContainer{
+    background: #ffffff;
+    margin-top: 2%;
+    width: 100%;
+}
+.feeText {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 26px;
+    color: #000;
+}
+.chartContainer{
+    height: 210px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.chartBox {
+    width: 25%;
+    height: 70%;
+}
+
+.dashboardTotalAmount {
+    font-size: 20px;
+    padding: 30px 10px 20px 25px;
+    color: #000000;
+}
+.dashboardAmountPrice {
+    font-size: 22px;
+    color: #000000;
+    font-weight: 600;
+    padding: 22px 28px;
+    display: flex;
+}
+.dash-inr {
+    padding: 15px 0;
+}
+.dashprice {
+    font-size: 38px;
+    font-weight: 800;
+    padding: 0 12px;
+
+}
+.dashboardWrapper {
+    padding: 10px 0px;
+}
+.dashPrice {
+    font-size: 42px;
+    font-weight: 800;
+    padding: 0 12px;
+
+}
+.dashboardFeesText {
+    font-size: 22px;
+    padding: 20px 10px 20px 25px;
+    color: #000000;
+}
+.chartBoxOne {
+    margin-top: 5%;
+    width: 25%;
+    height: 70%;
+}

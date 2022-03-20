@@ -1,0 +1,292 @@
+@import "./common.scss";
+@import "./newui.scss";
+
+// .login-wrap {
+//     width: 100%;
+//     display: flex;
+//     height: 100vh;
+//     overflow: hidden;
+// }
+// .zenqore-image-wrapper {
+//     width: 477px;
+//     height: 100vh;
+//     .zenqore-image-wrap {
+//         width: 100%;
+//     }
+// }
+.zenqore-leftside-wrap {
+    // width: calc(100% - 477px);
+    // height: 100vh;
+    .login-content {
+        // width: 328px;
+        // margin: 0 auto;
+        .stepper-BackBtn {
+            position: absolute;
+            bottom: 52px;
+            height: 40px !important;
+            padding: 10px 45px;
+            left: 35px;
+            border-radius: 4px;
+            background-color: #fff;
+            color: #1359c1;
+            font-size: 14px;
+            font-family: $primary-font-Regular;
+            cursor: pointer;
+            margin-top: 30px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+    }
+    .login-input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .login-btn {
+        width: 100%;
+        border-radius: 3px;
+        background-color: #15435b;
+        padding: 10px 39px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #ffffff;
+        border: 1px solid #15435b;
+    }
+    .login-btn:hover{
+        width: 100%;
+        border-radius: 3px;
+        background-color: #15435b;
+        padding: 10px 39px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #ffffff;
+        border: 1px solid #15435b;
+    }
+    // .login-form-hd {
+    //     font-size: 30px;
+    //     font-weight: bold;
+    //     font-stretch: normal;
+    //     font-style: normal;
+    //     line-height: 0.9;
+    //     letter-spacing: normal;
+    //     color: #091e42;
+    //     padding-bottom: 8px;
+    //     padding-top: 111px;
+    // }
+
+    .login-desc-txt {
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #42526e;
+        padding-bottom: 20px;
+    }
+}
+// .zenHome-image {
+//     width: 100%;
+//     height: 100%;
+// }
+.login-div {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 23px;
+}
+.login-email {
+    label {
+        font-family: $primary-font-Regular;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0.15px;
+        color: $light-txt-color;
+    }
+    .login-input-field {
+        width: 100%;
+        font-family: $primary-font-Medium;
+        font-size: $fs-normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: $bold-text-color;
+        border: none;
+    }
+    .MuiFilledInput-input {
+        background: $input-bg-color;
+        padding: 30px 12px 10px;
+        font-family: $primary-font-Medium;
+    }
+    .MuiFilledInput-underline:before {
+        border-bottom: 1px solid $light-txt-color;
+    }
+    .MuiFilledInput-underline:after {
+        border-bottom: 2px solid $new-color;
+    }
+}
+.login-email.error {
+    label {
+        color: $error-color !important;
+    }
+    .MuiFilledInput-underline:before {
+        border-bottom: 1px solid $error-color;
+    }
+    .MuiFilledInput-underline:after {
+        border-bottom: 2px solid $error-color;
+    }
+}
+
+.primary-btn-login {
+    width: 328px;
+    height: 56px;
+    border-radius: $radius-4;
+    background-color: $new-color;
+    color: $white;
+    font-size: $fs-normal;
+    font-family: $primary-font-Medium;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-top: 3px;
+}
+.login-btn-color {
+    color: $new-color;
+    cursor: pointer;
+    font-size: $fs-normal;
+    letter-spacing: normal;
+    font-family: $primary-font-Medium;
+}
+button:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+.login-para {
+    font-size: $fs-normal;
+    font-family: $primary-font-Regular;
+    color: $light-txt-color;
+    // color: #6b778c;
+    margin-top: 26px;
+    text-align: center;
+}
+// .login-copyright-wrap{
+//     position: absolute;
+//     bottom: 59px;
+// }
+
+// .login-copyright-text {
+//     font-size: $fs-normal;
+//     font-family: $primary-font-Regular;;
+//     color: $light-txt-color;
+//     text-align: center;
+//     width: 350px;
+// }
+.recaptcha-position {
+    width: 100%;
+    clear: both;
+}
+.error-texts {
+    width: 100%;
+    font-size: $fs-s;
+    font-family: $primary-font-Regular;
+    text-align: left;
+    // float: left;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.header-register {
+    font-size: 30px;
+    color: $bold-text-color;
+    font-family: $primary-font-Regular;
+    margin: 0;
+}
+#g-recaptcha > div {
+    width: 100% !important;
+}
+#g-recaptcha {
+    iframe {
+        transform: scaleX(1.08);
+        margin-left: 15px;
+    }
+}
+.login-separator-line {
+    border: $input-border-color;
+    width: 325px;
+}
+.agree-check {
+    margin-top: 5px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.agree-check label {
+    text-align: left;
+    margin-bottom: 0;
+    padding-left: 2px;
+    font-size: $fs-s;
+    width: 100%;
+    cursor: pointer;
+}
+
+.password-icon {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: $light-txt-color;
+}
+.forgot-pwd {
+    font-size: 14px;
+    color: #1359c1;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.signup-req-wrap {
+    width: 100%;
+    float: left;
+    clear: both;
+    padding-top: 22px;
+}
+.register-success-icon {
+    height: 80px;
+    width: 90px;
+}
+.email-reg-info {
+    text-align: center;
+    // padding-top: 100px;
+    .login-form-hd {
+        line-height: 42px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+}
+.register-para {
+    margin-top: 26px;
+    text-align: center;
+    font-size: 18px;
+    font-family: $primary-font-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #505f79;
+}
+.register-para1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-family: $primary-font-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #505f79;
+}

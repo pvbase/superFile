@@ -1,0 +1,55 @@
+@import "./theme.scss";
+
+.Loader-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 150px);  
+    position: relative;
+    p {
+      width: 100%;
+      margin-bottom: 0;
+      position: absolute;
+    }
+    .page-loader {
+      border: 5px solid #f3f3f3;
+      -webkit-animation: spin 1s linear infinite;
+      animation: spin 1s linear infinite;
+      border-top: 5px solid #555;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+    }
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+  
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+
+  .loader-wrap {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100%;
+    z-index: 11111111111;
+    height: 100vh;
+    left: 0;
+    .MuiLinearProgress-root{
+      margin-top: 0 !important;
+    }
+    .MuiLinearProgress-barColorPrimary {
+      background-color: $secondary-color !important;
+    }
+  }

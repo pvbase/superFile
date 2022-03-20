@@ -1,0 +1,24 @@
+[
+    {
+        "category": "input",
+        "type": "password",
+        "name": "password",
+        "label": "Password",
+        "class": "input-wrap password-icon-wrap change-password-input",
+        "readOnly": false,
+        "required": true,
+        "password": true
+    },
+    {
+        "category": "button",
+        "type": "submit",
+        "label": "Submit",
+        "class": "primary-btn btns-submit profile-submit-btn"
+    },
+    {
+        "category": "button",
+        "type": "cancel",
+        "label": "Cancel",
+        "class": "secondary-btn btns-cancel profile-cancel-btn"
+    }
+]

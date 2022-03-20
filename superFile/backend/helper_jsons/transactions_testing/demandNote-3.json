@@ -1,0 +1,41 @@
+{
+  "displayName": "DN_2020-21_003",
+  "transactionType": "eduFees",
+  "transactionSubType": "demandNote",
+  "transactionDate": "2020-11-08T12:02:39.707+00:00",
+  "studentId": "5fab8b852ae048251083236c",
+  "studentRegId": "STUD_003",
+  "studentName": "Pradeep Kumar",
+  "class": "BE_ENG_CVL_20-21",
+  "academicYear": "2020-21",
+  "programPlan": "PRGPLN_003",
+  "amount": 5000,
+  "dueDate": "2020-12-07T12:05:39.707+00:00",
+  "emailCommunicationRefIds": "pradeepkumar@gmail.com",
+  "smsCommunicationRefIds": "9980102332",
+  "status": "pending",
+  "relatedTransactions": [],
+  "data": {
+    "displayName": "DN_2020-21_003",
+    "studentId": "STUD_003",
+    "studentRegId": "1HK16CVL018",
+    "class": "BE_ENG_CVL_20-21",
+    "academicYear": "2020-21",
+    "programPlan": "PRGPLN_003",
+    "issueDate": "2020-11-08T12:02:39.707+00:00",
+    "dueDate": "2020-12-07T12:05:39.707+00:00",
+    "feesBreakUp": [
+      {
+        "feeTypeId": "5fab81df4ba44f4c14570652",
+        "feeTypeCode": "FT_001",
+        "amount": 3000
+      },
+      {
+        "feeTypeId": "5fab81df4ba44f4c14570654",
+        "feeTypeCode": "FT_003",
+        "amount": 2000
+      }
+    ]
+  },
+  "createdBy": "5fa29d5b3ab8c44784144eec"
+}

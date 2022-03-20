@@ -1,0 +1,21 @@
+{
+  "razorpay": {
+    "amount": "amount",
+    "currency": "currencyCode",
+    "accept_partial": "acceptPartial",
+    "first_min_partial_amount": "minPartialAmount",
+    "expire_by": "expirationTimeStamp",
+    "reference_id": "paymentReferenceId",
+    "description": "description",
+    "customer": {
+      "name": "name",
+      "contact": "mobile",
+      "email": "email"
+    },
+    "notify": { "sms": "smsNotification", "email": "emailNotification" },
+    "reminder_enable": "enableReminder",
+    "notes": { "policy_name": "name" },
+    "callback_url": "callBackUrl",
+    "callback_method": "callbackMethod"
+  }
+}

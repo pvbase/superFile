@@ -1,0 +1,194 @@
+{
+    "studentsFormjson": {
+        "General": [
+            {
+                "category": "input",
+                "type": "text",
+                "name": "feesStructure",
+                "label": "Fees Structure",
+                "class": "input-wrap",
+                "readOnly": true,
+                "required": false,
+                "requiredBoolean": false,
+                "clear": false,
+                "validation": false
+            },
+            {
+                "category": "input",
+                "type": "text",
+                "name": "name",
+                "label": "Name",
+                "class": "input-wrap",
+                "readOnly": true,
+                "required": false,
+                "requiredBoolean": false,
+                "clear": false,
+                "validation": false
+            },
+            {
+                "category": "input",
+                "type": "text",
+                "name": "batchClass",
+                "label": "Batch/Class",
+                "class": "input-wrap",
+                "readOnly": true,
+                "required": false,
+                "requiredBoolean": false,
+                "clear": false,
+                "validation": false
+            }
+        ],
+        "Fees Types":[ ]
+    },
+    "sampleStudentsData": [
+        {
+            "ID": "ST001",
+            "Name":"Santhosh",
+            "batch/Class":"BA Fy 2020",
+            "Fees Structure":"FS001", 
+            "Annual Amount":"2,00,000.00",
+            "Amount till Date":"50,000.00",
+            "Paid":"45,000.00",
+            "Pending":"5,000.00",
+            "Created On":"10/11/2020",
+            "Created By":"10/11/2020",
+            "Version":"1"
+        },
+        {
+            "ID": "ST002",
+            "Name":"Prashanth",
+            "batch/Class":"BA Fy 2020",
+            "Fees Structure":"FS001", 
+            "Annual Amount":"2,00,000.00",
+            "Amount till Date":"50,000.00",
+            "Paid":"50,000.00",
+            "Pending":"0.00",
+            "Created On":"10/11/2020",
+            "Created By":"10/11/2020",
+            "Version":"1"
+        }
+    ],
+    "containerNav": {
+        "isBack": false,
+        "name": "Student Fees Mapping",
+        "isName": true,
+        "isSearch": true,
+        "isSort": true,
+        "isPrint": true,
+        "isDownload": false,
+        "isShare": false,
+        "isNew": false,
+        "newName": "New",
+        "isSubmit": false
+    },
+    "sampleApiRes":{
+        "status": "success",
+        "message": "studentFeesMapping data",
+        "data": [
+            {
+                "displayName": "SM-004",
+                "studentName": "Navaneeth Upadya",
+                "feeStructure": [
+                    "FS-001"
+                ],
+                "feeTypes": [
+                    {
+                        "status": 1,
+                        "_id": "5faa4c109f4b043d9498040f",
+                        "displayName": "FT-001",
+                        "title": "Tuition Fee",
+                        "description": "Tuition Fee",
+                        "refId": "ZQTUF",
+                        "unit": 1,
+                        "frequency": 1,
+                        "createdBy": "5fa8daece3eb1f18d4250e76",
+                        "__v": 0,
+                        "createdAt": "2020-11-10T08:15:12.360Z",
+                        "updatedAt": "2020-11-10T08:15:12.360Z"
+                    }
+                ],
+                "total": 70000,
+                "paid": 70000,
+                "pending": ""
+            },
+            {
+                "displayName": "SM-004",
+                "studentName": "Navaneeth Upadya",
+                "feeStructure": [
+                    "FS-001"
+                ],
+                "feeTypes": [
+                    {
+                        "status": 1,
+                        "_id": "5faa4c109f4b043d9498040f",
+                        "displayName": "FT-001",
+                        "title": "Tuition Fee",
+                        "description": "Tuition Fee",
+                        "refId": "ZQTUF",
+                        "unit": 1,
+                        "frequency": 1,
+                        "createdBy": "5fa8daece3eb1f18d4250e76",
+                        "__v": 0,
+                        "createdAt": "2020-11-10T08:15:12.360Z",
+                        "updatedAt": "2020-11-10T08:15:12.360Z"
+                    }
+                ],
+                "total": 70000,
+                "paid": 70000,
+                "pending":  ""
+            },
+            {
+                "displayName": "SM-004",
+                "studentName": "Navaneeth Upadya",
+                "feeStructure": [
+                    "FS-001"
+                ],
+                "feeTypes": [
+                    {
+                        "status": 1,
+                        "_id": "5faa4c109f4b043d9498040f",
+                        "displayName": "FT-001",
+                        "title": "Tuition Fee",
+                        "description": "Tuition Fee",
+                        "refId": "ZQTUF",
+                        "unit": 1,
+                        "frequency": 1,
+                        "createdBy": "5fa8daece3eb1f18d4250e76",
+                        "__v": 0,
+                        "createdAt": "2020-11-10T08:15:12.360Z",
+                        "updatedAt": "2020-11-10T08:15:12.360Z"
+                    }
+                ],
+                "total": 70000,
+                "paid": 70000,
+                "pending": ""
+            },
+            {
+                "displayName": "SM-004",
+                "studentName": "Navaneeth Upadya",
+                "feeStructure": [
+                    "FS-001"
+                ],
+                "feeTypes": [
+                    {
+                        "status": 1,
+                        "_id": "5faa4c109f4b043d9498040f",
+                        "displayName": "FT-001",
+                        "title": "Tuition Fee",
+                        "description": "Tuition Fee",
+                        "refId": "ZQTUF",
+                        "unit": 1,
+                        "frequency": 1,
+                        "createdBy": "5fa8daece3eb1f18d4250e76",
+                        "__v": 0,
+                        "createdAt": "2020-11-10T08:15:12.360Z",
+                        "updatedAt": "2020-11-10T08:15:12.360Z"
+                    }
+                ],
+                "total": 70000,
+                "paid": 70000,
+                "pending": ""
+            }
+        ]
+    }
+}

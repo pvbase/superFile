@@ -1,0 +1,19 @@
+{
+  "accessKeyId": "AKIAR6HU7QOXIVHWCXAL",
+  "secretAccessKey": "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",
+  "apiVersion": "2012-08-10",
+  "S3_BUCKET": "tally-migrator",
+  "domainName": "apiprod.zenqore.com",
+  "basePath": "master",
+  "profilewise_mongoDbUrl": "mongodb://a38c89cad5a634703904babc44a6c3c7-202e8a47f48fd7a6.elb.ap-south-1.amazonaws.com:27017",
+  "central_mongoDbUrl": "mongodb://a802904d113bc4c07b4aa6bfbe3266dd-51a39873d7b4031f.elb.ap-south-1.amazonaws.com:27017aea8de517b0b94e3aa97973b7776a415-ca942b1d8faec361.elb.ap-south-1.amazonaws.com:27017",
+  "subnet1": "subnet-02cf7370e1467be89",
+  "sg1": "sg-0922a982de940ced7",
+  "sg2": "sg-0c481540a3a6f9b27",
+  "sg3": "sg-0c40aabdd6940a68a",
+  "orgCollection": "gstinkyc",
+  "personCollecton": "persons",
+  "resourceUrl": "http://3.87.49.91:8080/container",
+  "razorpay": "https://api.razorpay.com/v1",
+  "receiptAPI": "http://18.214.67.236:8080/createPdf"
+}

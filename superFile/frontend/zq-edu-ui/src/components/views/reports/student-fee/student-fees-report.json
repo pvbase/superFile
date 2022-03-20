@@ -1,0 +1,112 @@
+{
+    "SampleStudentData": [
+        {
+            "studentName":"Mathi Guna",
+            "regId":"ZQ0010",
+            "academicYear":"2020-21",
+            "classBatch":"V-B",
+            "DemandId":"DN/2020-21/01",
+            "description": [
+                {
+                    "name":"Tutition Fees",
+                    "due":22500,
+                    "paid":17500,
+                    "paidDate":"05/11/2020",
+                    "balance":5000,
+                    "status":"Pending",
+                    "txnId":"1567854356781"
+                },
+                {
+                    "name":"Transport Fees",
+                    "due":12500,
+                    "paid":9722,
+                    "paidDate":"05/11/2020",
+                    "balance":778,
+                    "status":"Pending",
+                    "txnId":"1567854356781"
+                },
+                {
+                    "name":"Uniform Fees",
+                    "due":5000,
+                    "paid":3889,
+                    "paidDate":"05/11/2020",
+                    "balance":1111,
+                    "status":"Pending",
+                    "txnId":"1567854356781"
+                },
+                {
+                    "name":"Library Fees",
+                    "due":2500,
+                    "paid":1944,
+                    "paidDate":"05/11/2020",
+                    "balance":556,
+                    "status":"Pending",
+                    "txnId":"1567854356781"
+                },
+                {
+                    "name":"Lab Fees",
+                    "due":2500,
+                    "paid":1944,
+                    "paidDate":"05/11/2020",
+                    "balance":556,
+                    "status":"Pending",
+                    "txnId":"1567854356781"
+                },
+                {
+                    "name":"Total",
+                    "due":45000,
+                    "paid":35000,
+                    "paidDate":"-",
+                    "balance":10000,
+                    "status":"Pending",
+                    "txnId":"-"
+                }
+            ]
+        },
+        {
+            "studentName":"Santhosh Kumar",
+            "regId":"ZQ009",
+            "academicYear":"2020-21",
+            "classBatch":"IV-C",
+            "DemandId":"DN/2020-21/05",
+            "description": [
+                {
+                    "name":"Tutition Fees",
+                    "due":22500,
+                    "paid":22500,
+                    "paidDate":"28/10/2020",
+                    "balance":0,
+                    "status":"Paid",
+                    "txnId":"1567854356781"
+                },
+                {
+                    "name":"Transport Fees",
+                    "due":14500,
+                    "paid":14500,
+                    "paidDate":"02/11/2020",
+                    "balance":0,
+                    "status":"Paid",
+                    "txnId":"527289202002"
+                },
+                {
+                    "name":"Uniform Fees",
+                    "due":5000,
+                    "paid":5000,
+                    "paidDate":"28/10/2020",
+                    "balance":0,
+                    "status":"Paid",
+                    "txnId":"1567854356781"
+                },
+                {
+                    "name":"Total",
+                    "due":42000,
+                    "paid":42000,
+                    "paidDate":"-",
+                    "balance":0,
+                    "status":"Paid",
+                    "txnId":"-"
+                }
+            ]
+        }
+    ]
+}

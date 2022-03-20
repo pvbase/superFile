@@ -1,0 +1,172 @@
+image: node:12.14.0
+
+options:
+  size: 2x  # all steps in this repo get 8GB memory
+
+   
+pipelines:
+  custom: 
+    staging: 
+      - step:
+          script: 
+            - echo "Scheduled builds in Pipelines are awesome!" 
+  branches:
+    dev:
+      - step:
+          name: Code Build of Dev_Branch 
+          caches:
+            - node
+          services:
+            - docker 
+          artifacts:
+            - zenqore_FC.zip
+          script:
+            - cd zq-edu-ui
+            - apt-get update
+            - npm i
+            - CI=false
+            - npm run build
+            - cd /opt/atlassian/pipelines/agent/build
+            - apt-get install -y zip
+            - zip -r zenqore_FC.zip .
+      - step:
+          name: upload to Dev s3 bucket
+          script: 
+             - pipe: atlassian/aws-code-deploy:0.2.9
+               variables:
+                 AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                 AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                 AWS_DEFAULT_REGION: ${AWS_DEV_REGION}
+                 COMMAND: 'upload'
+                 APPLICATION_NAME: ${APPLICATION_NAME}
+                 ZIP_FILE: 'zenqore_FC.zip'
+                 S3_BUCKET: ${S3_BUCKET_DEV}
+                 VERSION_LABEL: 'zenqore_FC.zip'
+                 LOCAL_PATH: $BITBUCKET_CLONE_DIR
+
+      -  step:
+           name: Deploy on Dev using codedeploy
+           trigger: manual
+           script:
+             - pipe: atlassian/aws-code-deploy:0.2.9
+               variables:
+                AWS_DEFAULT_REGION: ${AWS_DEV_REGION}
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: ${APPLICATION_NAME}
+                DEPLOYMENT_GROUP: ${DEPLOYMENT_GROUP_DEV}
+                S3_BUCKET: ${S3_BUCKET_DEV}
+                COMMAND: 'deploy'
+                VERSION_LABEL: 'zenqore_FC.zip'
+                ZIP_FILE: 'zenqore_FC.zip'
+                WAIT: 'true'
+                IGNORE_APPLICATION_STOP_FAILURES: 'true'
+                FILE_EXISTS_BEHAVIOR: 'OVERWRITE'
+    UAT:
+        - step:
+            name: Code Build of UAT_Branch
+            caches:
+                - node
+            artifacts:
+              - zenqore_FC.zip
+            script:
+            - cd zq-edu-ui
+            - apt-get update
+            - npm install
+            - npm i
+            - CI=false
+            - npm run-script build
+            - npm run build
+            - cd /opt/atlassian/pipelines/agent/build
+            - apt-get install -y zip
+            - zip -r zenqore_FC.zip .
+
+        - step:
+            name: upload to UAT s3 bucket
+            script: 
+              - pipe: atlassian/aws-code-deploy:0.2.9
+                variables:
+                  AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                  AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                  AWS_DEFAULT_REGION: ${AWS_UAT_REGION}
+                  COMMAND: 'upload'
+                  APPLICATION_NAME: ${APPLICATION_NAME_UAT}
+                  ZIP_FILE: 'zenqore_FC.zip'
+                  S3_BUCKET: ${S3_BUCKET_UAT}
+                  VERSION_LABEL: 'zenqore_FC.zip'
+                  LOCAL_PATH: $BITBUCKET_CLONE_DIR
+        - step:
+            name: Deploying to server
+            trigger: manual
+            script:
+              - pipe: atlassian/aws-code-deploy:0.2.9
+                variables:
+                  AWS_DEFAULT_REGION: ${AWS_UAT_REGION}
+                  AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                  AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                  APPLICATION_NAME: ${APPLICATION_NAME_UAT}
+                  DEPLOYMENT_GROUP: ${DEPLOYMENT_GROUP_UAT}
+                  S3_BUCKET: ${S3_BUCKET_UAT}
+                  COMMAND: 'deploy'
+                  VERSION_LABEL: 'zenqore_FC.zip'
+                  ZIP_FILE: 'zenqore_FC.zip'
+                  WAIT: 'true'
+                  IGNORE_APPLICATION_STOP_FAILURES: 'true'
+                  FILE_EXISTS_BEHAVIOR: 'OVERWRITE'
+
+        #- step:
+        #   name: sanitaty testing
+        #    script:
+        #     - curl -u zenqore:11465a18254d40f5500643d13c27198e1f http://3.89.48.217:8080/job/Test2/build?token=zenqore
+    Production:
+      - step:
+          name: Code Build of prod_Branch
+          caches:
+            - node
+          artifacts:
+            - zenqore_FC.zip
+          script:
+            - cd zq-edu-ui
+            - apt-get update
+            - npm install
+            - npm i
+            - CI=false
+            - npm run-script build
+            - npm run build
+            - cd /opt/atlassian/pipelines/agent/build
+            - apt-get install -y zip
+            - zip -r zenqore_FC.zip .
+      - step:
+          name: upload to prod s3 bucket
+          script:
+            - pipe: atlassian/aws-code-deploy:0.2.9
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: $AWS_UAT_REGION
+                COMMAND: 'upload'
+                APPLICATION_NAME: $APPLICATION_NAME_PROD
+                ZIP_FILE: 'zenqore_FC.zip'
+                S3_BUCKET: $S3_BUCKET_PROD
+                VERSION_LABEL: 'zenqore_FC.zip'
+                LOCAL_PATH: $BITBUCKET_CLONE_DIR
+
+      -  step:
+           name: Deploy on Prod using codedeploy
+           trigger: manual
+           script:
+            - pipe: atlassian/aws-code-deploy:0.2.9
+              variables:
+                AWS_DEFAULT_REGION: $AWS_UAT_REGION
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                APPLICATION_NAME: $APPLICATION_NAME_PROD
+                DEPLOYMENT_GROUP: $DEPLOYMENT_GROUP_PROD
+                S3_BUCKET: $S3_BUCKET_PROD
+                COMMAND: 'deploy'
+                VERSION_LABEL: 'zenqore_FC.zip'
+                ZIP_FILE: 'zenqore_FC.zip'
+                WAIT: 'true'
+                IGNORE_APPLICATION_STOP_FAILURES: 'true'
+                FILE_EXISTS_BEHAVIOR: 'OVERWRITE'
+                

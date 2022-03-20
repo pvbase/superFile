@@ -1,0 +1,371 @@
+{
+    "studentsFormjson": {
+        "General": [
+            {
+                "category": "input",
+                "type": "text",
+                "name": "id",
+                "label": "ID",
+                "class": "input-wrap",
+                "readOnly": true,
+                "required": false,
+                "requiredBoolean": false,
+                "clear": false,
+                "validation": false
+            },
+            {
+                "category": "input",
+                "type": "text",
+                "name": "title",
+                "label": "Title",
+                "class": "input-wrap",
+                "readOnly": false,
+                "required": true,
+                "requiredBoolean": true,
+                "clear": false
+            },
+            {
+                "category": "input",
+                "type": "text",
+                "name": "description",
+                "label": "Description",
+                "class": "input-wrap",
+                "readOnly": false,
+                "required": false,
+                "requiredBoolean": false,
+                "clear": false
+            },
+            {
+                "type": "select",
+                "name": "paymentType",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Type",
+                "readOnly": false,
+                "requiredBoolean": true,
+                "required": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "Program plan",
+                        "value": "Program plan"
+                    },
+                    {
+                        "label": "Transport Fees",
+                        "value": "Transport Fees"
+                    },
+                    {
+                        "label": "Hostel Fees",
+                        "value": "Hostel Fees"
+                    },
+                    {
+                        "label": "Library Fees",
+                        "value": "Library Fees"
+                    },
+                    {
+                        "label": "Sports Fees",
+                        "value": "Sports Fees"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "name": "typeId",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Type ID",
+                "readOnly": false,
+                "requiredBoolean": true,
+                "required": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "PP001",
+                        "value": "PP001"
+                    },
+                    {
+                        "label": "PP002",
+                        "value": "PP002"
+                    }
+                ]
+            },
+            {
+                "category": "input",
+                "type": "text",
+                "name": "typeTitle",
+                "label": "Type Title",
+                "class": "input-wrap",
+                "readOnly": false,
+                "required": true,
+                "requiredBoolean": true,
+                "clear": false
+            }
+        ],
+        "Fee Details": [
+            {
+                "type": "select",
+                "name": "PaymentScheduleSelection",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Payment Schedule Selection",
+                "readOnly": false,
+                "requiredBoolean": true,
+                "required": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "PP001",
+                        "value": "PP001"
+                    },
+                    {
+                        "label": "PP002",
+                        "value": "PP002"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "name": "PaymentScheduleTitle",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Payment Schedule Title",
+                "readOnly": false,
+                "requiredBoolean": true,
+                "required": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "Term based Schedule",
+                        "value": "Term based Schedule"
+                    },
+                    {
+                        "label": "Month based Schedule",
+                        "value": "Month based Schedule"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "name": "ReminderPlanSelection",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Reminder plan Selection",
+                "readOnly": false,
+                "requiredBoolean": true,
+                "required": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "RP001",
+                        "value": "PP001"
+                    },
+                    {
+                        "label": "RP002",
+                        "value": "PP002"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "name": "Reminder Plan Title",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Reminder Plan Title",
+                "readOnly": false,
+                "requiredBoolean": true,
+                "required": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "3 Reminders",
+                        "value": "3"
+                    },
+                    {
+                        "label": "4 Reminders",
+                        "value": "4"
+                    },
+                    {
+                        "label": "5 Reminders",
+                        "value": "5"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "name": "LateFeePlanSelection",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Late Fee Plan Selection",
+                "readOnly": false,
+                "requiredBoolean": true,
+                "required": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "LF001",
+                        "value": "LF001"
+                    },
+                    {
+                        "label": "LF002",
+                        "value": "LF002"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "name": "LateFeePlanTitle",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Late Fee Plan Title",
+                "readOnly": false,
+                "requiredBoolean": true,
+                "required": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "Default",
+                        "value": "Default"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "name": "installmentPlanSelection",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Installment Plan Selection",
+                "readOnly": false,
+                "requiredBoolean": true,
+                "required": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "IP001",
+                        "value": "IP001"
+                    },
+                    {
+                        "label": "IP002",
+                        "value": "IP002"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "name": "installmentPlanTitle",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Installment Plan Title",
+                "readOnly": false,
+                "requiredBoolean": true,
+                "required": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "Default",
+                        "value": "Default"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "name": "ConcessionPlanSelection",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Concession Plan Selection",
+                "readOnly": false,
+                "requiredBoolean": true,
+                "required": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "DP001",
+                        "value": "DP001"
+                    },
+                    {
+                        "label": "DP002",
+                        "value": "DP002"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "name": "concessionPlanTitle",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Concession Plan Title",
+                "readOnly": false,
+                "requiredBoolean": true,
+                "required": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "Post COVID plan",
+                        "value": "Post COVID plan"
+                    }
+                ]
+            },
+            {
+                "category": "input",
+                "type": "text",
+                "name": "Units",
+                "label": "Units",
+                "class": "input-wrap",
+                "readOnly": false,
+                "required": true,
+                "requiredBoolean": true,
+                "clear": false
+            },
+            {
+                "category": "input",
+                "type": "text",
+                "name": "perUnitAmount",
+                "label": "Per Unit Amount",
+                "class": "input-wrap",
+                "readOnly": true,
+                "required": false,
+                "requiredBoolean": false,
+                "clear": false,
+                "validation": false
+            },
+            {
+                "category": "input",
+                "type": "text",
+                "name": "annualAmount",
+                "label": "Annual Amount",
+                "class": "input-wrap",
+                "readOnly": true,
+                "required": false,
+                "requiredBoolean": false,
+                "clear": false,
+                "validation": false
+            }
+        ]
+    },
+    "sampleStudentsData": [
+        {
+            "ID": "FM001",
+            "Title": "BA FY 2020",
+            "Description": "BA First Year 2020",
+            "Type": "Payment Plan",
+            "Payment Schedule": "PS001",
+            "Avg. Per Unit Amount": "25,000.00",
+            "Annual Amount": "1,25,000.00",
+            "Created On": "10/11/2020",
+            "Created By": "10/11/2020",
+            "Version": "1"
+        },
+        {
+            "ID": "FM002",
+            "Title": "Route 1",
+            "Description": "Route 1",
+            "Type": "Transport Fee",
+            "Payment Schedule": "PS001",
+            "Avg. Per Unit Amount": "2,000.00",
+            "Annual Amount": "24,000.00",
+            "Created On": "08/11/2020",
+            "Created By": "08/11/2020",
+            "Version": "1"
+        }
+    ],
+    "containerNav": {
+        "isBack": false,
+        "name": "Fees Manager",
+        "isName": true,
+        "isSearch": true,
+        "isSort": true,
+        "isPrint": true,
+        "isDownload": false,
+        "isShare": false,
+        "isNew": true,
+        "newName": "New",
+        "isSubmit": false
+    }
+}

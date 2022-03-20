@@ -1,0 +1,32 @@
+[
+    {
+        "category": "input",
+        "type": "number",
+        "name": "phoneno",
+        "label": "Mobile No.",
+        "class": "input-wrap login-input",
+        "readOnly": false,
+        "required":true,
+        "requiredBoolean":true
+    },
+    {
+        "category": "recaptcha",
+        "class": "recaptcha-wrap",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean":true
+    },
+    {
+        "category": "button",
+        "type": "submit",
+        "label": "Confirm",
+        "class": "primary-btn login-btn",
+        "apiDetails": [
+            {
+                "baseUri": "zqBaseUri",
+                "apiUri": "zqparent/otplogin",
+                "method": "POST"
+            }
+        ]
+    }
+]

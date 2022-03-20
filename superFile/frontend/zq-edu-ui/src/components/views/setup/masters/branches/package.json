@@ -1,0 +1,6 @@
+{
+    "name": "branches",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./branches.js"
+}

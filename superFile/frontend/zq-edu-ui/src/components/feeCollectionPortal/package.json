@@ -1,0 +1,6 @@
+{
+    "name": "fee-collection-payment",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./fee-collection-payment.js"
+}

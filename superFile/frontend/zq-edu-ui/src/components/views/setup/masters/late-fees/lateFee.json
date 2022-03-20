@@ -1,0 +1,310 @@
+{
+    "studentsFormjson": {
+        "General": [
+            {
+                "category": "input",
+                "type": "text",
+                "name": "id",
+                "label": "ID",
+                "class": "input-wrap",
+                "readOnly": true,
+                "required": false,
+                "requiredBoolean": false,
+                "clear": false,
+                "validation":false
+            },
+            {
+                "category": "input",
+                "type": "text",
+                "name": "title",
+                "label": "Title",
+                "class": "input-wrap",
+                "readOnly": false,
+                "required": true,
+                "requiredBoolean": true,
+                "clear": false
+            },
+            {
+                "category": "input",
+                "type": "text",
+                "name": "description",
+                "label": "Description",
+                "class": "input-wrap",
+                "readOnly": false,
+                "required": false,
+                "requiredBoolean": false,
+                "clear": false
+            }
+        ],
+        "Late Fee Details": [
+            {
+                "type": "select",
+                "name": "feesType",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Fees Type",
+                "readOnly": false,
+                "requiredBoolean": true,
+                "required": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "Tuition Fees",
+                        "value": "Tuition Fees"
+                    },
+                    {
+                        "label": "Transport Fees",
+                        "value": "Transport Fees"
+                    },
+                    {
+                        "label": "Hostel Fees",
+                        "value": "Hostel Fees"
+                    },
+                    {
+                        "label": "Library Fees",
+                        "value": "Library Fees"
+                    },
+                    {
+                        "label": "Sports Fees",
+                        "value": "Sports Fees"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "name": "typeOfvalue",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Type",
+                "readOnly": false,
+                "required": true,
+                "requiredBoolean": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "%",
+                        "value": "%"
+                    },
+                    {
+                        "label": "Value",
+                        "value": "Value"
+                    }
+                ]
+            },
+            {
+                "category": "input",
+                "type": "number",
+                "name": "charges",
+                "label": "charges",
+                "class": "input-wrap",
+                "readOnly": false,
+                "required": true,
+                "requiredBoolean": true,
+                "clear": false
+            },
+            {
+                "type": "select",
+                "name": "per",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Per",
+                "readOnly": false,
+                "required": true,
+                "requiredBoolean": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "One Time",
+                        "value": "One Time"
+                    },
+                    {
+                        "label": "Day",
+                        "value": "Day"
+                    },
+                    {
+                        "label": "Week",
+                        "value": "Week"
+                    },
+                    {
+                        "label": "Month",
+                        "value": "Month"
+                    }
+                ]
+            }
+        ]
+    },
+    "AddstudentsFormjson": {
+        "General": [
+            {
+                "category": "input",
+                "type": "text",
+                "name": "id",
+                "label": "ID",
+                "class": "input-wrap",
+                "readOnly": true,
+                "required": false,
+                "requiredBoolean": false,
+                "clear": false,
+                "validation":false
+            },
+            {
+                "category": "input",
+                "type": "text",
+                "name": "title",
+                "label": "Title",
+                "class": "input-wrap",
+                "readOnly": false,
+                "required": true,
+                "requiredBoolean": true,
+                "clear": false
+            },
+            {
+                "category": "input",
+                "type": "text",
+                "name": "description",
+                "label": "Description",
+                "class": "input-wrap",
+                "readOnly": false,
+                "required": true,
+                "requiredBoolean": true,
+                "clear": false
+            },
+            {
+                "type": "select",
+                "name": "noOfInstallments",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "No. of Installments",
+                "readOnly": false,
+                "requiredBoolean": true,
+                "required": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "1",
+                        "value": "1"
+                    },
+                    {
+                        "label": "2",
+                        "value": "2"
+                    },
+                    {
+                        "label": "3",
+                        "value": "3"
+                    },
+                    {
+                        "label": "4",
+                        "value": "4"
+                    },
+                    {
+                        "label": "5",
+                        "value": "5"
+                    }
+                ]
+            }
+        ],
+        "Schedule Details": [
+            {
+                "type": "select",
+                "name": "frequencySchedule",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "Frequency",
+                "readOnly": false,
+                "requiredBoolean": true,
+                "required": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "Week",
+                        "value": "Week"
+                    },
+                    {
+                        "label": "Fortnight",
+                        "value": "Fortnight"
+                    },
+                    {
+                        "label": "Month",
+                        "value": "Month"
+                    }
+                ]
+            },
+            {
+                "type": "select",
+                "name": "byDueDate",
+                "class": "select-input-wrap setup-input-wrap",
+                "label": "By due Date",
+                "readOnly": false,
+                "required": true,
+                "requiredBoolean": true,
+                "clear": false,
+                "options": [
+                    {
+                        "label": "First Day",
+                        "value": " First Day"
+                    },
+                    {
+                        "label": "Second Day",
+                        "value": "Second Day"
+                    },
+                    {
+                        "label": "Third Day",
+                        "value": "Third Day"
+                    }
+                ]
+            }
+        ],
+        "Payment Breakup": [
+            {
+                "category": "input",
+                "type": "text",
+                "name": "dueOn",
+                "label": "Due On",
+                "class": "input-wrap",
+                "readOnly": true,
+                "required": false,
+                "requiredBoolean": false,
+                "clear": false
+            },
+            {
+                "category": "input",
+                "type": "text",
+                "name": "percentage",
+                "label": "Percentage",
+                "class": "input-wrap input-wrap-1",
+                "readOnly": true,
+                "required": false,
+                "requiredBoolean": false,
+                "clear": false
+            }
+        ]
+    },
+    "sampleStudentsData": [
+        {
+            "ID": "IP001",
+            "Title": "3 Installments",
+            "Description": "3 Installments",
+            "NOS": "3",
+            "Frequency": "Monthly",
+            "Created by": "05/11/2020",
+            "Version": "1"
+        },
+        {
+            "ID": "IP002",
+            "Title": "3 Installments",
+            "Description": "3 Installments",
+            "NOS": "3",
+            "Frequency": "Monthly",
+            "Created by": "05/11/2020",
+            "Version": "1"
+        }
+    ],
+    "containerNav": {
+        "isBack": false,
+        "name": "Late Fees",
+        "isName": true,
+        "isSearch": true,
+        "isSort": true,
+        "isPrint": true,
+        "isDownload": false,
+        "isShare": false,
+        "isNew": true,
+        "newName": "New",
+        "isSubmit": false
+    }
+}

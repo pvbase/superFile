@@ -1,0 +1,31 @@
+[
+    {
+        "category": "input",
+        "type": "number",
+        "name": "phoneno",
+        "label": "Mobile No.",
+        "class": "input-wrap login-input",
+        "readOnly": false,
+        "required": false
+    },
+    {
+        "category": "recaptcha",
+        "class": "recaptcha-wrap",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean": true
+    },
+    {
+        "category": "button",
+        "type": "submit",
+        "label": "Confirm",
+        "class": "primary-btn student-portal-login-btn",
+        "apiDetails": [
+            {
+                "baseUri": "portal",
+                "apiUri": "1",
+                "method": "POST"
+            }
+        ]
+    }
+]

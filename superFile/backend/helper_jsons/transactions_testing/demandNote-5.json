@@ -1,0 +1,41 @@
+{
+  "displayName": "DN_2020-21_005",
+  "transactionType": "eduFees",
+  "transactionSubType": "demandNote",
+  "transactionDate": "2020-10-01T00:00:00.000+00:00",
+  "studentId": "5fab8b852ae048251083236a",
+  "studentRegId": "STUD_001",
+  "studentName": "Adiba Nisar",
+  "class": "BE_ENG_CSC_20-21",
+  "academicYear": "2020-21",
+  "programPlan": "PRGPLN_002",
+  "amount": 146000,
+  "dueDate": "2020-11-01T12:05:39.707+00:00",
+  "emailCommunicationRefIds": "adiba.nisar@gmail.com",
+  "smsCommunicationRefIds": "9873847583",
+  "status": "pending",
+  "relatedTransactions": [],
+  "data": {
+    "displayName": "DN_2020-21_005",
+    "studentId": "5fab8b852ae0482510832368",
+    "studentRegId": "STUD_001",
+    "class": "BE_ENG_CSC_20-21",
+    "academicYear": "2020-21",
+    "programPlan": "5fab8b7f2ae048251083235e",
+    "issueDate": "2020-10-01T00:00:00.000+00:00",
+    "dueDate": "2020-11-01T12:05:39.707+00:00",
+    "feesBreakUp": [
+      {
+        "feeTypeId": "5fab81df4ba44f4c14570652",
+        "feeTypeCode": "FT_001",
+        "amount": 140000
+      },
+      {
+        "feeTypeId": "5fab81df4ba44f4c14570654",
+        "feeTypeCode": "FT_003",
+        "amount": 6000
+      }
+    ]
+  },
+  "createdBy": "5fa29d5b3ab8c44784144eec"
+}

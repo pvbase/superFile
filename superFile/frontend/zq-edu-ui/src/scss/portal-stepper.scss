@@ -1,0 +1,163 @@
+@import "../scss/common.scss";
+@import "../scss/theme.scss";
+.migration-main-div {
+    background-color: #f6f8fa;
+    height: calc(100vh - 0px);
+    .migration-header-stepper-section {
+        display: flex;
+        padding: 15px;
+        .zenqore-stepper-section {
+            padding-top: 8px;
+            width: 96%;
+            height: 55px;
+            .rs-steps-item-status-finish .rs-steps-item-icon-wrapper:not(.rs-steps-item-custom-icon) {
+                border: 1px solid #00875a;
+                background: #00875a;
+            }
+            .rs-steps-item-status-finish
+                .rs-steps-item-icon-wrapper:not(.rs-steps-item-custom-icon)
+                .rs-steps-item-icon::before {
+                color: #ffffff;
+                font-weight: bold;
+                content: none;
+                background-color: #00875a;
+            }
+            .rs-steps-horizontal .rs-steps-item-title::after {
+                border-top-width: 2px;
+            }
+            .rs-steps-item-status-finish
+                .rs-steps-item-icon-wrapper:not(.rs-steps-item-custom-icon)
+                .rs-steps-item-icon {
+                display: contents;
+                color: #ffffff;
+                background: #00875a !important;
+            }
+            .rs-steps-item-status-finish .rs-steps-item-title::after {
+                border-color: #00875a !important;
+                color: #00875a !important;
+                background: #00875a !important;
+            }
+            .rs-steps-item-title {
+                padding-right: 5px;
+                color: #000;
+                font-size: 15px;
+            }
+            .rs-steps-item-status-process .rs-steps-item-icon-wrapper:not(.rs-steps-item-custom-icon) {
+                background: #ffffff;
+                border-color: #0052cc;
+                color: #0052cc;
+                font-weight: bold;
+            }
+            .rs-steps-item-description {
+                margin-top: 0px;
+                font-size: 12px;
+                color: $black;
+            }
+            // @media only screen and (max-width: 1180px) {
+            //     .rs-steps-item-content {
+            //         display: none;
+            //     }
+            // }
+        }
+    }
+    .migration-body-content-section {
+        height: calc(100vh - 135px);
+        margin-bottom: 8px;
+        background-color: $white;
+    }
+    .migration-footer-navigation-section {
+        width: 100%;
+        display: flex;
+        .stepper-back-button {
+            padding: 0px;
+            width: 66px;
+            height: 36px;
+            background: #ffffff;
+            border: 1px solid #0052cc;
+            border-radius: 3px;
+            position: absolute;
+            left: 0;
+            color: #0052cc;
+            margin: 0px 0px 0px 10px;
+            text-transform: capitalize;
+        }
+        .stepper-next-button {
+            padding: 0px;
+            width: 66px;
+            height: 36px;
+            background: #0052cc;
+            color: #ffffff;
+            border: 1px solid #0052cc;
+            border-radius: 3px;
+            position: absolute;
+            right: 0;
+            margin: 0px 10px 0px 0px;
+            text-transform: capitalize;
+        }
+        .stepper-cancel-button {
+            padding: 0px;
+            width: 66px;
+            height: 36px;
+            background: #ffffff;
+            border: 1px solid #0052cc;
+            border-radius: 3px;
+            color: #0052cc;
+            position: absolute;
+            right: 0;
+            margin: 0px 86px 0px 0px;
+            text-transform: capitalize;
+        }
+    }
+}
+.portal-login-div {
+    .rs-steps {
+        min-height: 30px;
+        margin-right: 40px;
+    }
+    .zenlogo-wrap {
+        position: unset;
+        width: 6%;
+        min-width: 70px;
+    }
+    img.zqlogo-image {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .zenqore-leftside-wrap {
+        .login-form-hd {
+            line-height: 1.43;
+            text-align: center;
+            font-size: 24px;
+            width: 348px;
+            padding-top: 40px;
+            padding-bottom: 10px;
+            span {
+                color: $secondary-color;
+            }
+        }
+    }
+    .vendor-details-txt {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .pdf-extract-wrap {
+        float: none;
+        width: calc(100% - 183px);
+        background-color: #fff;
+        margin: 0 auto;
+    }
+    .otp-wrapper {
+        padding-top: 40px;
+    }
+    .zenqore-leftside-wrap .login-content {
+        height: 100%;
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 45px;
+    }
+}

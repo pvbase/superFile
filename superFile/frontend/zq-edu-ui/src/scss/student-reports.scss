@@ -1,0 +1,158 @@
+@import "./common.scss";
+@import "./input.scss";
+
+.reports-student-fees {
+    .student-report-header-title {
+        position: fixed;
+        top: 0;
+        width: 50%;
+        background: $app-body-color;
+        // height: 60px;
+        height: 56px;
+        line-height: 40px;
+        padding-top: 20px;
+        z-index: 2;
+        display: flex;
+        p {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #00445d;
+        }
+        .top-header-icon {
+            padding-top: 10px;
+            font-size: 25px;
+            margin-top: -4px;
+            cursor: pointer;
+        }
+    }
+    .reports-body-section {
+        .reports-data-print-table {
+            .transaction-table-review {
+                width: 100%;
+                font-size: 13px;
+                border: 1px solid #dfe1e6;
+                margin-top: 15px;
+                background: #fff;
+                thead {
+                    font-weight: bold;
+                    border-bottom: 1px solid #dfe1e6;
+                    // border-top: 1px solid #f2f2f2;
+                    tr {
+                        height: 40px;
+                        text-transform: uppercase;
+                        th {
+                            font-size: 12px;
+                            height: 30px;
+                            color: #7a869a;
+                            text-align: left;
+                            // padding-left: 20px;
+                        }
+                        // :nth-child(1) {
+                        //     width: calc(100% - 90%);
+                        // }
+                        // :nth-child(2) {
+                        //     width: calc(100% - 88%);
+                        // }
+                        // :nth-child(3) {
+                        //     width: calc(100% - 88%);
+                        // }
+                        // :nth-child(4) {
+                        //     width: calc(100% - 92%);
+                        // }
+                        // :nth-child(5) {
+                        //     width: calc(100% - 89%);
+                        // }
+                        // :nth-child(6) {
+                        //     width: calc(100% - 90%);
+                        // }
+                        th.demand-note.ID {
+                            width: 10%;
+                        }
+
+                        th.demand-note.REGID {
+                            width: 10%;
+                        }
+                        th.student-fee.ID {
+                            width: 10%;
+                        }
+
+                        th.student-fee.REGID {
+                            width: 8%;
+                        }
+                        th.student-fee.STUDENTNAME {
+                            width: 10%;
+                        }
+                    }
+                }
+                tbody {
+                    height: 120px;
+                    overflow-y: auto;
+                    tr {
+                        .transaction-sno {
+                            text-align: center;
+                            border-bottom: 1px solid #dfe1e6;
+                        }
+                        .transaction-vch-num,
+                        .transaction-date,
+                        .transaction-vch-type {
+                            text-align: center;
+                            border-bottom: 1px solid #dfe1e6;
+                            border-left: 1px solid #dfe1e6;
+                        }
+                        .transaction-particulars {
+                            border-left: 1px solid #dfe1e6;
+                            p {
+                                border-bottom: 1px solid #dfe1e6;
+                                padding: 14px;
+                            }
+                        }
+                        .transaction-credit {
+                            // color: #00875a;
+                            border-left: 1px solid #dfe1e6;
+                            border-right: 1px solid #dfe1e6;
+                        }
+                        .transaction-debit {
+                            // color: #ff5630;
+                            border-left: 1px solid #dfe1e6;
+                        }
+                        .transaction-debit,
+                        .transaction-credit {
+                            p {
+                                border-bottom: 1px solid #dfe1e6;
+                                padding: 14px;
+                                // font-weight: bold;
+                                text-align: right;
+                                // border-left: 1px solid #dfe1e6;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.transaction-review-mainDiv {
+    background: #fff;
+}
+.reports-tableRow-body td {
+    // height: 45px;
+    padding: 14px;
+}
+.reports-tableRow-header tr th {
+    text-align: center !important;
+    border-left: 1px solid #dfe1e6;
+}
+.statement-of-payment-text {
+    margin: 16px 0px;
+    text-align: center;
+    font-family: "OpenSans-Medium";
+    font-size: 18px;
+}
+.statement-date-time{
+    padding: 15px 0px 0px 0px;
+    font-family: 'OpenSans-Medium';
+    font-size: 15px;
+    margin-top: 15px;
+}

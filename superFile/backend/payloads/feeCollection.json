@@ -1,0 +1,26 @@
+{
+  "entityId": "5f0c2157aaeba2009d617ef2",
+  "transactionDate": "2020-09-17T11:05:39.707+00:00",
+  "relatedTransactions": ["DN/2020-21/001"],
+  "transactionType": "eduFees",
+  "transactionSubType": "feePayment",
+  "amount": 30000,
+  "dueAmount": 30000,
+  "status": "paid",
+  "data": {
+    "displayName": "TXN001",
+    "type": "feePayment",
+    "mode": "bank",
+    "modeDetails": {
+      "netBankingType": null,
+      "walletType": null,
+      "instrumentNo": "ABC12345",
+      "instrumentDate": "2020-09-17T11:05:39.707+00:00",
+      "bankName": "HDFC BANK",
+      "branchName": "Bangalore",
+      "transactionId": "TXN123",
+      "remarks": "Fees has been paid"
+    },
+    "amount": 30000
+  }
+}

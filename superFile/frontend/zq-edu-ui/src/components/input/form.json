@@ -1,0 +1,75 @@
+[
+    {
+        "category":"input",
+        "type":"email",
+        "name":"email",
+        "label":"Email",
+        "class":"input-wrap",
+        "error":"invalid email",
+        "readOnly":false,
+        "required":true,
+        "defaultValue":"guhanraja.m@gmail.com"        
+    },
+    {
+        "category":"input",
+        "type":"password",
+        "name":"password",
+        "class":"input-wrap",
+        "label":"Password",
+        "readOnly":false,
+        "required":true,
+        "defaultValue":"Happy@123"
+    },
+    {
+        "type":"date",
+        "name":"date",
+        "class":"select-input-wrap",
+        "label":"Date",
+        "readOnly":false,
+        "required":true
+    },
+    {
+        "type":"select",
+        "name":"select",
+        "class":"select-input-wrap",
+        "label":"Select",
+        "options":[{
+            "label": "Option 1",
+            "value": "Option 1"
+        }, {
+            "label": "Option 2",
+            "value": "Option 2"
+        }, {
+            "label": "Option 3",
+            "value": "Option 3"
+        }],
+        "readOnly":false,
+        "required":true,
+        "defaultValue": "Option 2"
+    },
+    {
+        "category":"input",
+        "type":"password",
+        "name":"password",
+        "label":"Password",
+        "class":"input-wrap password-icon-wrap login-input",
+        "readOnly":false,
+        "required":true,
+        "password":true
+    },
+    {
+        "category":"button",
+        "type":"submit",
+        "label":"Submit",
+        "class":"primary-btn",
+        "baseUri":"master",
+        "apiUri":"/login",
+        "method":"POST"
+    },
+    {
+        "category":"button",
+        "type":"cancel",
+        "label":"Cancel",
+        "class":"secondary-btn ml36"
+    }
+]

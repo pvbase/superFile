@@ -1,0 +1,304 @@
+[
+    {
+        "type": "heading",
+        "label": "Basic Details",
+        "class": "form-hd settings-form-hd"
+    },
+    {
+        "category": "input",
+        "type": "text",
+        "name": "instituteName",
+        "label": "Institute Name",
+        "class": "input-wrap settings-address-input",
+        "readOnly": false,
+        "required": false,
+        "requiredBoolean": false,
+        "clear": false
+    },
+    {
+        "category": "input",
+        "type": "text",
+        "name": "gstin",
+        "label": "GSTIN",
+        "class": "input-wrap settings-address-input",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean": false,
+        "clear": false
+    },
+    {
+        "type": "heading",
+        "label": "Address Details",
+        "class": "form-hd settings-form-hd"
+    },
+    {
+        "category": "input",
+        "type": "text",
+        "name": "address1",
+        "label": "Address1",
+        "class": "input-wrap settings-address-input",
+        "readOnly": false,
+        "required": false,
+        "requiredBoolean": false,
+        "clear": false
+    },
+    {
+        "category": "input",
+        "type": "text",
+        "name": "address2",
+        "label": "Address2",
+        "class": "input-wrap settings-address-input",
+        "readOnly": false,
+        "required": false,
+        "requiredBoolean": false,
+        "clear": false
+    },
+    {
+        "category": "input",
+        "type": "text",
+        "name": "address3",
+        "label": "Address3",
+        "class": "input-wrap settings-address-input",
+        "readOnly": false,
+        "required": false,
+        "requiredBoolean": false,
+        "clear": false
+    },
+    {
+        "category": "input",
+        "type": "text",
+        "name": "cityTown",
+        "label": "City/Town",
+        "class": "input-wrap settings-address-input",
+        "readOnly": false,
+        "required": false,
+        "requiredBoolean": false,
+        "clear": false
+    },
+    {
+        "type": "select",
+        "name": "stateName",
+        "class": "select-input-wrap setup-input-wrap settings-address-input  ",
+        "label": "State",
+        "options": [
+            {
+                "value": "01",
+                "label": "Jammu & Kashmir"
+            },
+            {
+                "value": "02",
+                "label": "Himachal Pradesh"
+            },
+            {
+                "value": "03",
+                "label": "Punjab"
+            },
+            {
+                "value": "04",
+                "label": "Chandigarh"
+            },
+            {
+                "value": "05",
+                "label": "Uttarakhand"
+            },
+            {
+                "value": "06",
+                "label": "Haryana"
+            },
+            {
+                "value": "07",
+                "label": "Delhi"
+            },
+            {
+                "value": "08",
+                "label": "Rajasthan"
+            },
+            {
+                "value": "09",
+                "label": "Uttar Pradesh"
+            },
+            {
+                "value": "10",
+                "label": "Bihar"
+            },
+            {
+                "value": "11",
+                "label": "Sikkim"
+            },
+            {
+                "value": "12",
+                "label": "Arunachal Pradesh"
+            },
+            {
+                "value": "13",
+                "label": "Nagaland"
+            },
+            {
+                "value": "14",
+                "label": "Manipur"
+            },
+            {
+                "value": "15",
+                "label": "Mizoram"
+            },
+            {
+                "value": "16",
+                "label": "Tripura"
+            },
+            {
+                "value": "17",
+                "label": "Meghalaya"
+            },
+            {
+                "value": "18",
+                "label": "Assam"
+            },
+            {
+                "value": "19",
+                "label": "West Bengal"
+            },
+            {
+                "value": "20",
+                "label": "Jharkhand"
+            },
+            {
+                "value": "21",
+                "label": "Orissa"
+            },
+            {
+                "value": "22",
+                "label": "Chhattisgarh"
+            },
+            {
+                "value": "23",
+                "label": "Madhya Pradesh"
+            },
+            {
+                "value": "24",
+                "label": "Gujarat"
+            },
+            {
+                "value": "25",
+                "label": "Daman & Diu"
+            },
+            {
+                "value": "26",
+                "label": "Dadra & Nagar Haveli"
+            },
+            {
+                "value": "27",
+                "label": "Maharashtra"
+            },
+            {
+                "value": "28",
+                "label": "Andhra Pradesh (Old)"
+            },
+            {
+                "value": "29",
+                "label": "Karnataka"
+            },
+            {
+                "value": "30",
+                "label": "Goa"
+            },
+            {
+                "value": "31",
+                "label": "Lakshadweep"
+            },
+            {
+                "value": "32",
+                "label": "Kerala"
+            },
+            {
+                "value": "33",
+                "label": "Tamil Nadu"
+            },
+            {
+                "value": "34",
+                "label": "Puducherry"
+            },
+            {
+                "value": "35",
+                "label": "Andaman & Nicobar Islands"
+            },
+            {
+                "value": "36",
+                "label": "Telengana"
+            },
+            {
+                "value": "37",
+                "label": "Andhra Pradesh (New)"
+            }
+        ],
+        "placement": "auto",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean": false
+    },
+    {
+        "category": "input",
+        "type": "number",
+        "name": "pinCode",
+        "label": "PIN code",
+        "class": "input-wrap settings-address-input",
+        "readOnly": false,
+        "required": false,
+        "requiredBoolean": false,
+        "clear": false
+    },
+    {
+        "type": "heading",
+        "label": "Contact Details",
+        "class": "form-hd settings-form-hd"
+    },
+    {
+        "category": "input",
+        "type": "text",
+        "name": "firstName",
+        "label": "First Name",
+        "class": "input-wrap settings-address-input",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean": false
+    },
+    {
+        "category": "input",
+        "type": "text",
+        "name": "lastName",
+        "label": "Last Name",
+        "class": "input-wrap settings-address-input marginRight30",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean": false
+    },
+    {
+        "category": "input",
+        "type": "email",
+        "name": "email",
+        "label": "Email",
+        "class": "input-wrap settings-address-input ",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean": false
+    },
+    {
+        "category": "input",
+        "type": "number",
+        "name": "phoneNumber1",
+        "label": "Phone Number1",
+        "class": "input-wrap settings-address-input",
+        "readOnly": false,
+        "required": true,
+        "requiredBoolean": false
+    },
+    {
+        "category": "input",
+        "type": "number",
+        "name": "phoneNumber2",
+        "label": "Phone Number2",
+        "class": "input-wrap settings-address-input",
+        "readOnly": false,
+        "required": false,
+        "requiredBoolean": false
+    }
+]

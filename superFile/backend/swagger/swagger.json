@@ -1,0 +1,561 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0",
+        "title": "ZENQORE API",
+        "description": "",
+        "termsOfService": ""
+    },
+    "tags": [
+        {
+            "name": "Reports",
+            "description": "Ken42 Fees Collection Reports"
+        },
+        {
+            "name": "Applications",
+            "description": "Ken42 Applications"
+        },
+        {
+            "name": "ParentPortal",
+            "description": "Ken42 Parent Portal APIs"
+        }
+    ],
+    "schemes": [
+        "http",
+        "https"
+    ],
+    "securityDefinitions": {
+        "apiKeyHeader": {
+            "type": "apiKey",
+            "name": "Ocp-Apim-Subscription-Key",
+            "in": "header"
+        },
+        "apiKeyQuery": {
+            "type": "apiKey",
+            "name": "subscription-key",
+            "in": "query"
+        }
+    },
+    "security": [
+        {
+            "apiKeyHeader": []
+        },
+        {
+            "apiKeyQuery": []
+        }
+    ],
+    "paths": {
+        "/edu/paymentHistory/{id}": {
+            "get": {
+                "tags": [
+                    "Reports"
+                ],
+                "description": "Payment History API",
+                "operationId": "payment history",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "student Heda ID",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "orgId",
+                        "in": "query",
+                        "description": "OrgId to get",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                },
+                "produces": [
+                    "application/vnd.collection+json"
+                ]
+            }
+        },
+        "/edu/pendingFees/{id}": {
+            "get": {
+                "tags": [
+                    "Reports"
+                ],
+                "description": "Payment Schedule API",
+                "operationId": "payment schedule api",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "student Heda ID",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "orgId",
+                        "in": "query",
+                        "description": "OrgId to get",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                },
+                "produces": [
+                    "application/vnd.collection+json"
+                ]
+            }
+        },
+        "/edu/createApplication": {
+            "post": {
+                "tags": [
+                    "Applications"
+                ],
+                "description": "Create Application",
+                "consumes": [
+                    "application/x-www-form-urlencoded"
+                ],
+                "parameters": [
+                    {
+                        "name": "amount",
+                        "in": "formData",
+                        "type": "string",
+                        "required": true,
+                        "default": "1000"
+                    },
+                    {
+                        "name": "paisa",
+                        "in": "formData",
+                        "default": "00",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "applicationId",
+                        "in": "formData",
+                        "default": "APP-2020-001",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "accept_partial",
+                        "in": "formData",
+                        "default": "false",
+                        "type": "Boolean"
+                    },
+                    {
+                        "name": "min_partial_amount",
+                        "in": "formData",
+                        "default": "100",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "name",
+                        "in": "formData",
+                        "default": "Muniyaraj",
+                        "type": "string"
+                    },
+                    {
+                        "name": "mobile",
+                        "in": "formData",
+                        "default": "9655173928",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "email",
+                        "in": "formData",
+                        "default": "mnraj218@gmail.com",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "callBackUrl",
+                        "in": "formData",
+                        "default": "http://3.217.250.156/feeCollection?demandId=3989",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "currencyCode",
+                        "in": "formData",
+                        "default": "INR",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "programPlan",
+                        "in": "formData",
+                        "default": "BioTechnology",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "batch",
+                        "in": "formData",
+                        "default": "11/03/2021",
+                        "description": "Course start date as batch",
+                        "type": "string"
+                    },
+                    {
+                        "name": "orgId",
+                        "in": "query",
+                        "description": "OrgId to get",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "notify: true"
+                    }
+                }
+            }
+        },
+        "/edu/sendReceipt": {
+            "post": {
+                "tags": [
+                    "Applications"
+                ],
+                "description": "Send Receipt",
+                "consumes": [
+                    "application/x-www-form-urlencoded"
+                ],
+                "parameters": [
+                    {
+                        "name": "email",
+                        "in": "formData",
+                        "type": "string",
+                        "required": true,
+                        "default": "muniyaraj.neelamegam@zenqore.com"
+                    },
+                    {
+                        "name": "academicYear",
+                        "in": "formData",
+                        "default": "2019",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "applicationId",
+                        "in": "formData",
+                        "default": "APP-2020-001",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "studentName",
+                        "in": "formData",
+                        "default": "Muniyaraj",
+                        "type": "string"
+                    },
+                    {
+                        "name": "class",
+                        "in": "formData",
+                        "default": "VI A",
+                        "type": "string"
+                    },
+                    {
+                        "name": "applicationFees",
+                        "in": "formData",
+                        "default": "2000",
+                        "type": "string"
+                    },
+                    {
+                        "name": "paymentId",
+                        "in": "formData",
+                        "default": "pay_GBBiS3Sl6Sa2vH",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "currencyCode",
+                        "in": "formData",
+                        "default": "INR",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "programPlan",
+                        "in": "formData",
+                        "default": "Mechanical",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "orgId",
+                        "in": "query",
+                        "description": "OrgId to get",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "notify: true"
+                    }
+                }
+            }
+        },
+        "/edu/paymentDetails": {
+            "post": {
+                "tags": [
+                    "Applications"
+                ],
+                "description": "Payment Details - Short Course Plan",
+                "consumes": [
+                    "application/x-www-form-urlencoded"
+                ],
+                "parameters": [
+                    {
+                        "name": "applicationId",
+                        "in": "formData",
+                        "type": "string",
+                        "required": true,
+                        "default": "202101-000032"
+                    },
+                    {
+                        "name": "regId",
+                        "in": "formData",
+                        "type": "string",
+                        "required": false,
+                        "default": "SNMA001"
+                    },
+                    {
+                        "name": "name",
+                        "in": "formData",
+                        "type": "string",
+                        "required": true,
+                        "default": "Naveen Kumar. P"
+                    },
+                    {
+                        "name": "permanentAddress",
+                        "in": "formData",
+                        "type": "string",
+                        "required": true,
+                        "default": "No.14/20, Muthusamy Lane, Pollachi."
+                    },
+                    {
+                        "name": "mobileNumber",
+                        "in": "formData",
+                        "default": "9783242123",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "emailAddress",
+                        "in": "formData",
+                        "required": true,
+                        "default": "naveenkumar.p@zenqore.com",
+                        "type": "string"
+                    },
+                    {
+                        "name": "courseId",
+                        "in": "formData",
+                        "required": true,
+                        "default": "AUT0123",
+                        "type": "string"
+                    },
+                    {
+                        "name": "courseName",
+                        "in": "formData",
+                        "required": true,
+                        "default": "Automatic Testing",
+                        "type": "string"
+                    },
+                    {
+                        "name": "courseStartDate",
+                        "in": "formData",
+                        "required": true,
+                        "default": "08/03/2021",
+                        "description": "Course start date",
+                        "type": "string"
+                    },
+                    {
+                        "name": "courseFee",
+                        "in": "formData",
+                        "required": true,
+                        "default": 5000,
+                        "type": "number"
+                    },
+                    {
+                        "name": "feeDetails",
+                        "in": "formData",
+                        "default": [
+                            {
+                                "feeType": "Tuition Fee",
+                                "feeAmount": 2500,
+                                "amountType": "Partial"
+                            }
+                        ],
+                        "required": true,
+                        "type": "array"
+                    },
+                    {
+                        "name": "orgId",
+                        "in": "formData",
+                        "description": "OrgId to get",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "notify: true"
+                    }
+                }
+            }
+        },
+        "/edu/paynow": {
+            "post": {
+                "tags": [
+                    "ParentPortal"
+                ],
+                "description": "Parent Portal Pay now",
+                "consumes": [
+                    "application/x-www-form-urlencoded"
+                ],
+                "parameters": [
+                    {
+                        "name": "accept_partial",
+                        "in": "formData",
+                        "type": "string",
+                        "required": true,
+                        "default": "false"
+                    },
+                    {
+                        "name": "amount",
+                        "in": "formData",
+                        "default": "2000",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "studentId",
+                        "in": "formData",
+                        "default": "SFM_2021-22_001",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "callBackUrl",
+                        "in": "formData",
+                        "default": "https://www.zenqore.com/",
+                        "type": "string"
+                    },
+                    {
+                        "name": "currencyCode",
+                        "in": "formData",
+                        "default": "INR",
+                        "type": "string"
+                    },
+                    {
+                        "name": "email",
+                        "in": "formData",
+                        "default": "muniyaraj.neelamegam@zenqore.com",
+                        "type": "string"
+                    },
+                    {
+                        "name": "mobile",
+                        "in": "formData",
+                        "default": "9655173928",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "name",
+                        "in": "formData",
+                        "default": "Muniyaraj",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "paisa",
+                        "in": "formData",
+                        "default": "00",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "feesBreakUp",
+                        "in": "formData",
+                        "default": [
+                            {
+                                "feeTypeId": "6006c7d59568651a2866e9fd",
+                                "feeType": "Term1 Fees",
+                                "amount": 2000,
+                                "feeTypeCode": "FT_2021-22_001"
+                            }
+                        ],
+                        "required": true,
+                        "type": "array"
+                    },
+                    {
+                        "name": "orgId",
+                        "in": "query",
+                        "description": "OrgId to get",
+                        "required": true,
+                        "default": "5fa8daece3eb1f18d4250e98",
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "notify: true"
+                    }
+                }
+            }
+        },
+        "/edu/addPayment": {
+            "post": {
+                "tags": [
+                    "ParentPortal"
+                ],
+                "description": "Add Payment to Ledger and Transactions entry",
+                "consumes": [
+                    "application/x-www-form-urlencoded"
+                ],
+                "parameters": [
+                    {
+                        "name": "orgId",
+                        "in": "formData",
+                        "type": "string",
+                        "required": true,
+                        "default": "5fa8daece3eb1f18d4250e98"
+                    },
+                    {
+                        "name": "studentId",
+                        "in": "formData",
+                        "default": "918",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "razorpayId",
+                        "in": "formData",
+                        "default": "pay_GXt7SF27UkJ7Kq",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "paymentLinkId",
+                        "in": "formData",
+                        "default": "plink_Gad5YRyybmOv3c",
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "notify: true"
+                    }
+                }
+            }
+        }
+    }
+}

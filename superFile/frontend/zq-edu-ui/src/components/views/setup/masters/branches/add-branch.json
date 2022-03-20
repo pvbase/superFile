@@ -1,0 +1,257 @@
+{
+    "GSTIN Based Details": [
+        {
+            "type": "heading",
+            "label": "Branch Contact Details",
+            "class": "form-hd"
+        },
+        {
+            "category": "switch",
+            "type": "switch",
+            "name": "headquarters",
+            "class": "input-wrap switch-input-wrap",
+            "label": "is Headquarter ?",
+            "defaultValue": false,
+            "readOnly": false
+        },
+        {
+            "type": "select",
+            "name": "undergroup",
+            "class": "select-input-wrap setup-input-wrap branches-select",
+            "label": "Under Group",
+            "options": [],
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "gstin",
+            "label": "GSTIN ",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "branchname",
+            "label": "Branch Name",
+            "class": "input-wrap",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false
+        },
+        {
+            "category": "input",
+            "type": "email",
+            "name": "branchemail",
+            "label": "Branch Email Address",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "number",
+            "name": "branchPhoneNumber1",
+            "label": "Phone Number 1",
+            "class": "input-wrap",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "number",
+            "name": "branchPhoneNumber2",
+            "label": "Phone Number 2",
+            "class": "input-wrap",
+            "readOnly": false,
+            "required": false,
+            "requiredBoolean": false
+        },
+        {
+            "type": "heading",
+            "label": "Address Details",
+            "class": "form-hd"
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "address1",
+            "label": "Address 1",
+            "class": "input-wrap branch-input",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "address2",
+            "label": "Address 2",
+            "class": "input-wrap branch-input",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "address3",
+            "label": "Landmark",
+            "class": "input-wrap branch-input",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "city/town",
+            "label": "City/Town",
+            "class": "input-wrap branch-input",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false
+        },
+        {
+            "category": "input",
+            "type": "number",
+            "name": "pincode",
+            "label": "PIN Code",
+            "class": "input-wrap branch-input",
+            "readOnly": true,
+            "required": false,
+            "requiredBoolean": false
+        }
+    ],
+    "Contact Details": [
+        {
+            "type": "heading",
+            "label": "Personal Details",
+            "class": "form-hd"
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "firstname",
+            "label": "First Name",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "lastname",
+            "label": "Last Name",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "email",
+            "name": "email",
+            "label": "Email",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "number",
+            "name": "phonenumber1",
+            "label": "Phone Number 1",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "number",
+            "name": "phonenumber2",
+            "label": "Phone Number 2",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": false,
+            "requiredBoolean": false
+        },
+        {
+            "category": "input",
+            "type": "number",
+            "name": "aadhaar",
+            "label": "Aadhar Number",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        }
+    ],
+    "Financial Details": [
+        {
+            "type": "heading",
+            "label": "Bank Details",
+            "class": "form-hd"
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "pan",
+            "label": "PAN",
+            "class": "input-wrap branch-input input-margin txt-uppercase",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "bankname",
+            "label": "Bank Name",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "bankaccountname",
+            "label": "Bank Account Name",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "number",
+            "name": "bankaccountno",
+            "label": "Bank Account No.",
+            "class": "input-wrap branch-input",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        },
+        {
+            "category": "input",
+            "type": "text",
+            "name": "bankifsc",
+            "label": "Bank IFSC",
+            "class": "input-wrap branch-input txt-uppercase",
+            "readOnly": false,
+            "required": true,
+            "requiredBoolean": true
+        }
+    ]
+}

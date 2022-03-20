@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'zq-dotconfig';
+  src:  url('fonts/zq-dotconfig.eot?72rypf');
+  src:  url('fonts/zq-dotconfig.eot?72rypf#iefix') format('embedded-opentype'),
+    url('fonts/zq-dotconfig.ttf?72rypf') format('truetype'),
+    url('fonts/zq-dotconfig.woff?72rypf') format('woff'),
+    url('fonts/zq-dotconfig.svg?72rypf#zq-dotconfig') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="zq-config-"], [class*=" zq-config-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'zq-dotconfig' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.zq-config-dots-menu:before {
+  content: "\e900";
+  color: #7a869a;
+}
+.zq-config-configuration:before {
+  content: "\e899";
+  color: #7a869a;
+}

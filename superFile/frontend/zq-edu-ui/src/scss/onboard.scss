@@ -1,0 +1,609 @@
+@import "../scss/common.scss";
+
+.onboard-wrap {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 80px;
+    background: #F6F8FA;
+    height: calc(100vh - 1px);
+    .card3 {
+        width: 30%;
+        cursor: pointer;
+        border: solid 1px #ffe380;
+    }
+    .card3:hover {
+        background: #ffab001c;
+    }
+    .card2 {
+        width: 30%;
+        cursor: pointer;
+        border: solid 1px #36b37e;
+        background: #36b37e1c;
+    }
+    .card2:hover {
+        background: #36b37e1c;
+    }
+}
+.zenlogo-wrap {
+    position: absolute;
+    width: 45px;
+    top: 20px;
+    left: 20px;
+    img{
+        width: 45px;
+    }
+}
+.zqlogo-image {
+    width: 100%;
+}
+.onboard-image {
+    width: 100%;
+    border-radius: 100%;
+    font-size: 135px;
+    .onboard-img{
+        width: 30%;
+        height: 30%;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .onboard-image {
+        width: 100%;
+        border-radius: 100%;
+        font-size: 135px;
+    .onboard-img{
+        width: 25%;
+        height: 25%;
+        }  
+    }
+}
+.onboard-card-wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    // margin-top: 31px;
+}
+.onboard-card {
+    padding: 50px 32px;
+    box-shadow: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-left: 1%;
+    cursor: pointer;
+}
+.onboard-header {
+    font-family: $primary-font-Medium;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.9;
+    letter-spacing: normal;
+    color: #091e42;
+}
+.onboard-content {
+    padding-top: 15px;
+    font-family: $primary-font-Regular;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #42526e;
+}
+.dot-card {
+    width: 30%;
+    border: 1px dotted #1359c1;
+    position: relative;
+    background: #1359c11c;
+}
+.dot-card:hover {
+    background: #1359c11c;
+}
+.onboard-card-header {
+    font-family: $primary-font-Regular;
+    font-size: 14px;
+    //   font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #091e42;
+}
+.onboard-card-title {
+    padding-top: 10px;
+    font-family: $primary-font-Regular;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #6b778c;
+}
+.card-round {
+    margin: 0 auto;
+    height: 40px;
+    width: 40px;
+    background-color: #ffab00;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-second-round {
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+    background-color: #36b37e;
+    // border-radius: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff
+}
+.card-third-round {
+    margin: 0 auto;
+    height: 60px;
+    width: 60px;
+    background-color: #1359c1;
+    // border-radius: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff
+}
+
+.onboard-icons {
+    color: #fff;
+    font-size:32px !important
+}
+// .onboard-card .card1:first-child:hover {
+//     background: #ffab001c;
+// }
+
+.browse-content {
+    text-decoration: underline;
+    color: #2162c4;
+    cursor: pointer;
+}
+.OR-content {
+    font-family: $primary-font-Medium;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #6b778c;
+    // padding-top: 60px;
+    padding-top: 100px;
+    width: 100px;
+}
+.filename-wrap {
+    width: 100%;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 0 0 12px 0 rgba(107, 119, 140, 0.17);
+    background-color: #ffffff;
+    left: 0;
+    .file-process-card {
+        padding: 15px;
+        p {
+            font-size: 10px;
+            font-family: $primary-font-Medium;
+            margin-bottom: 10px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000000;
+            position: absolute;
+            top: 10px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+        span.filesize {
+            color: #b3bac5;
+            padding-left: 5px;
+        }
+    }
+}
+.upload-file-error {
+    color: $error-color;
+    position: absolute;
+    text-align: center;
+    bottom: -30px;
+    font-size: 12px;
+}
+// .pf-c-progress__bar {
+//     position: relative;
+//     align-self: center;
+//     height: 4px;
+//     border-radius: 24px;
+//     background-color: #00b8d9 !important;
+// }
+// .pf-c-progress__status {
+//     font-family: $primary-font-Regular;
+//     margin-bottom: 5px;
+//     font-size: 10px;
+//     font-weight: normal;
+//     font-stretch: normal;
+//     font-style: normal;
+//     line-height: 1.5;
+//     letter-spacing: normal;
+//     color: #6b778c;
+// }
+// .pf-c-progress__description {
+//     grid-column: 1;
+//     font-size: 10px;
+//     font-family: $primary-font-Medium;
+//     margin-bottom: 10px;
+//     font-weight: normal;
+//     font-stretch: normal;
+//     font-style: normal;
+//     line-height: normal;
+//     letter-spacing: normal;
+//     color: #000000;
+// }
+// .pf-c-progress__indicator {
+//     position: absolute;
+//     top: 10px !important;
+//     left: 0;
+//     height: 4px !important;
+//     background-color: #00b8d9 !important;
+//     border-radius: 4px;
+// }
+span.file-size {
+    position: absolute;
+    font-size: 10px;
+    right: 0;
+    top: 10px;
+    left: 30%;
+}
+span.cancel {
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1359c1;
+    font-family: $primary-font-Medium;
+    position: relative;
+    bottom: 8px;
+}
+span.file-loaded-percentage {
+    float: right;
+    position: absolute;
+    right: 30px;
+    font-family: $primary-font-Regular;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #6b778c;
+}
+.MuiLinearProgress-root {
+    margin-top: 15px;
+}
+.MuiLinearProgress-barColorPrimary {
+    background-color: #00b8d9 !important;
+}
+.MuiLinearProgress-colorPrimary {
+    border-radius: 2px !important;
+    background-color: #dfe1e6 !important;
+}
+
+.process-complete {
+    border-radius: 3px;
+    background-color: #1359c1;
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    top: 45px;
+    right: 100px;
+}
+.onboard-logout {
+    position: absolute;
+    top: 30px;
+    cursor: pointer;
+    right: 30px;
+    font-family: "Roboto-Bold";
+    color: #000;
+    margin: 0;
+    font-size: 16px;
+}
+// Migration UI 
+.card-round-migration{
+    margin: 0 auto;
+    height: 40px;
+    width: 40px;
+    background-color: #6554c0;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardMigrate:hover{
+    background-color: #6554c02e;
+}
+.cardMigrate {
+    width: 30%;
+    cursor: pointer;
+    border: solid 1px #6554c0;
+}
+.rotate-migrate{
+    margin: 0 auto;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    float: right;
+}
+.round-circle{
+    // margin: 0 auto;
+    height: 40px;
+    width: 40px;
+    background-color: #1359c1;
+    color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+}
+    .OrgReview-mainDiv {
+        background: #F6F8FA;
+        height: calc(100vh - 0px);
+        ::-webkit-scrollbar {
+            width: 3px !important;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #999;
+            border-radius: 50px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #777;
+            border-radius: 50px;
+        }
+        .org-tableDiv {
+            margin: 20px 40px 20px 40px;
+            height: calc(100vh - 110px);
+            overflow-y: scroll;
+            .FetchingDiv-org{
+                p{
+                    font-size: 17px;
+                    padding-top: 40px;
+                }
+            }
+            .orgGst-Div {
+                width: 25%;
+                margin: 0 auto;
+                text-align: center;
+                .gst-headerData {
+                    padding:180px 0px 0px 0px;
+                    color: #00b8d9;
+                    padding-bottom: 10px;
+                    font-size: 14px;
+                    text-align: left;
+                }
+                .org-initialForm {
+                    margin: 0 auto;
+                    width: 100%;
+                    float: right;
+                    .gstnumber-details {
+                        width: 100%;
+                        float: left;
+                        .input-label{
+                            color: #00b8d9;
+                            font-size: 14px;
+                            text-align: left;
+                        }
+                    }
+                    .input-wrap input {
+                        text-transform: uppercase;
+                        padding: 12px 16px 12px;
+                        font-size: 13.5px;
+                    }
+                    .orgForm-submit-btn {
+                        height: 45px;
+                        margin-top: 0px;
+                        float: center;
+                        border-radius: 2px;
+                        margin:10px 0px 0px 0px;
+                    }
+                    .input-wrap {
+                        margin-bottom: 14px;
+                    }
+                }
+            }
+        }
+        .orgName-data {
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .material-select-ui {
+            margin-bottom: 20px !important;
+        }
+        .tabs-body {
+            margin-top: 10px;
+            padding: 20px 0px;
+            background-color: #fff;
+            .MuiTab-root {
+                text-transform: none;
+                border: none;
+            }
+            .MuiPaper-elevation1 {
+                box-shadow: none;
+                border-top: 1px solid $black-card-border-color;
+                border-left: 1px solid $black-card-border-color;
+                border-right: 1px solid $black-card-border-color;
+            }
+            .Org-Form-BodySec {
+                background-color: #F6F8FA;
+                float: left;
+                width: 100%;
+                height: calc(100vh - 145px);
+                form {
+                    background-color: #fff;
+                    width: 100% !important;
+                    // padding-top: 10px;
+                }
+                .input-wrap {
+                    width: 31%;
+                    margin-left: 23px;
+                    margin-bottom: 8px;
+                    height: 75px;
+                    float: inherit;
+                }
+                .setup-input-wrap{
+                    width: 31%;
+                    margin-left: 23px;
+                    float: left;
+                }
+                .input-wrap input {
+                    padding: 12px 16px 12px !important;
+                    font-size: 13.5px;
+                }
+                .form-submit-migration {
+                    height: 45px;
+                    float: right;
+                    margin: 25px 25px 0px 0px;
+                }
+                .datePicker {
+                    width: 31%;
+                    margin-left: 23px;
+                    height: 60px;
+                    a.rs-btn.rs-btn-default.rs-picker-toggle {
+                        line-height: 22px;
+                    }
+                }
+                .rs-picker-select{
+                    a.rs-btn.rs-btn-default.rs-picker-toggle{
+                        line-height: 22px;
+                    }
+                }
+                
+                .select-input-wrap.rs-picker-date a .rs-picker-toggle-value {
+                    font-size: 13.5px;
+                }
+                // .input-wrap input {
+                //     padding: 23.4px 16px 10px;
+                //     font-size: 13.5px;
+                // }
+                form .form-hd {
+                    margin-bottom: 7.8px;
+                    padding-left: 25px;
+                }
+            }
+        }
+    }
+// }
+.stepperNextBtn {
+    float: right !important;
+    border-radius: 2px;
+}
+.round-success{
+    background-color: #36b37e !important;
+    // margin: 0 auto;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+}
+.opacity{
+    opacity: 0.5;
+}
+.border-grey{
+    border: 1px dotted #1359c1;
+}
+.head-money-title{
+    font-size: 18px;
+    padding-top: 31px;
+    padding-left: 10px;
+    font-family: $primary-font-Bold;
+    color: #6b778c;
+}
+.ChangeModelBox {
+    top: 200px !important;
+}
+.CoaReviewNextBtn {
+    float: right !important;
+    border-radius: 2px;
+    background-color: $blue-btn-color !important;
+    color: $white !important;
+    font-size: 12px;
+}
+.CoaReviewNextBtn:hover {
+    float: right !important;
+    border-radius: 2px;
+    background-color: $blue-btn-color;
+    color: $white;
+}
+.CoaReviewBackBtn {
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.add-acc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    .MuiButton-text {
+        padding: 10px 45px;
+    }
+}
+.sub-add-org-btn{
+    position: absolute !important;
+    right: 5%;
+    top: 21px;
+}
+
+.setupForm-submit-btn{
+    position: absolute !important;
+    top: 20px;
+    right: 40px;
+    background-color: #0052CC !important;
+    height: 43px;
+}
+input#promoterpan{
+    text-transform: uppercase;
+}
+.icon-success {
+    font-size: 50px;
+    color: #36b37e;
+}
+.icon-wait {
+    font-size: 50px;
+   color: #1359c1;
+}
